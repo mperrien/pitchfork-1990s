@@ -8,10 +8,11 @@ import { sanitizeForDataAttribute } from "../utils/utils";
 
 interface Props {
 	album: AlbumInfo,
+	index: number,
 	reverseInfo?: boolean,
 }
 
-const { album, reverseInfo } = Astro.props;
+const { album, index, reverseInfo } = Astro.props;
 const safeTitle: string = sanitizeForDataAttribute(album.title);
 
 const covers = import.meta.glob<{ default: ImageMetadata }>('/src/assets/covers/*.{jpeg,jpg,webp,png,gif}')
@@ -35,6 +36,9 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 	</div>
 	<div class="album__cover">
 		<Image src={covers[coverPath]()} alt="" widths={[240, 540]} />
+	</div>
+	<div class="album__rank">
+		<span class="screen-reader-text">Ranked </span>{index + 1}
 	</div>
 </article>
 
@@ -72,7 +76,7 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 		margin-bottom: .6rem;
 
 		font-size: 2.4rem;
-		font-weight: 500;
+		font-weight: 700;
 	}
 
 	&__artist {
@@ -128,6 +132,33 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 			transform: scale(6);
 			transition: transform .3s ease-in;
 		}
+
+		.album__rank {
+			transform: translateY(-8.2rem);
+		}
+	}
+
+	&__rank {
+		pointer-events: none;
+
+		position: absolute;
+		top: -2rem;
+		left: calc(50% - 1.7rem);
+
+		display: grid;
+		place-content: center;
+		height: 3.2rem;
+		width: 3.2rem;
+
+		background-color: rgb(255 53 48 / 0.8);
+		border: .2rem solid white;
+		border-radius: 50%;
+		opacity: 0;
+
+		color: white;
+		font-weight: 700;
+
+		transition: all .3s ease-in-out;
 	}
 
 	&--reverseInfo {
@@ -136,6 +167,12 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 			right: calc(100% + 8.2rem);
 
 			transform: translateX(-100);
+		}
+	}
+
+	&--revealRank {
+		.album__rank {
+			opacity: 1;
 		}
 	}
 }

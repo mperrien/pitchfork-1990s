@@ -1,4 +1,6 @@
 ---
+import { Icon } from "astro-icon/components";
+
 import Layout from '../layouts/Layout.astro';
 import AlbumCard from '../components/AlbumCard.astro';
 
@@ -47,20 +49,11 @@ albums.forEach(album => {
 
 	// Draw lines
 	if (album["1999"] && album["2003"]) {
-		// const line = {
-		// 	start: [0, 10 * album["1999"]],
-		// 	start_control: [100, 10 * album["1999"]],
-		// 	end_control: [100, 10 * album["2003"]],
-		// 	end: [200, 10 * album["2003"]]
-		// };
-		// console.log(album.title);
-		// console.log(line);
-
 		lines1999.push({
 			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["1999"] - 31],
-			start_control: [100, 46 * album["1999"] - 31],
-			end_control: [665, 46 * album["2003"] - 31],
+			start_control: [400, 46 * album["1999"] - 31],
+			end_control: [365, 46 * album["2003"] - 31],
 			end: [765, 46 * album["2003"] - 31]
 		});
 	}
@@ -69,8 +62,8 @@ albums.forEach(album => {
 		lines2003.push({
 			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["2003"] - 31],
-			start_control: [100, 46 * album["2003"] - 31],
-			end_control: [665, 46 * album["2022"] - 31],
+			start_control: [400, 46 * album["2003"] - 31],
+			end_control: [365, 46 * album["2022"] - 31],
 			end: [765, 46 * album["2022"] - 31]
 		});
 	}
@@ -79,30 +72,34 @@ albums.forEach(album => {
 		lines1999.push({
 			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["1999"] - 31],
-			start_control: [100, 46 * album["1999"] - 31],
-			end_control: [665, 46 * 170], // Make it go out of bounds
+			start_control: [400, 46 * album["1999"] - 31],
+			end_control: [365, 46 * 170], // Make it go out of bounds
 			end: [765, 46 * 170]
 		});
 
 		lines2003.push({
 			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * 170], // Make it come from out of bounds
-			start_control: [100, 46 * 170],
-			end_control: [665, 46 * album["2022"] - 31],
+			start_control: [400, 46 * 170],
+			end_control: [365, 46 * album["2022"] - 31],
 			end: [765, 46 * album["2022"] - 31]
 		});
 	}
 })
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="A Pitchfork History of the 1990s">
 	<main>
+		<header>
+			<Icon name="pitchfork" />
+			<h1>A Pitchfork History of the 1990s</h1>
+		</header>
 		<div class="chart">
 			<div class="year year--1999">
 				<ol class="list list--1999">
-					{list1999.map(album => (
+					{list1999.map((album, index) => (
 						<li>
-							<AlbumCard album={album} />
+							<AlbumCard album={album} index={index} />
 						</li>
 					))}
 				</ol>
@@ -116,8 +113,8 @@ albums.forEach(album => {
 			</div>
 			<div class="year year--2003">
 				<ol class="list list--2003">
-					{list2003.map(album => (
-						<li><AlbumCard album={album} /></li>
+					{list2003.map((album, index) => (
+						<li><AlbumCard album={album} index={index} /></li>
 					))}
 				</ol>
 			</div>
@@ -130,8 +127,8 @@ albums.forEach(album => {
 			</div>
 			<div class="year year--2022">
 				<ol class="list list--2022">
-					{list2022.map(album => (
-						<li><AlbumCard album={album} reverseInfo={true} /></li>
+					{list2022.map((album, index) => (
+						<li><AlbumCard album={album} index={index} reverseInfo={true} /></li>
 					))}
 				</ol>
 			</div>
@@ -141,7 +138,7 @@ albums.forEach(album => {
 
 <script is:inline>
 	const albums = document.querySelectorAll("article.album");
-	const lines = document.querySelectorAll("svg path");
+	const lines = document.querySelectorAll(".lines svg path");
 	albums.forEach(album => {
 		album.addEventListener("mouseenter", (event) => {
 			const title = event.target.dataset.title;
@@ -151,18 +148,47 @@ albums.forEach(album => {
 				} else {
 					line.setAttribute("style", "opacity: 0.2;");
 				}
-			})
+			});
+
+			albums.forEach(al => {
+				if (al.dataset.title === title) {
+					al.classList.add("album--revealRank");
+				}
+			});
 		});
 
 		album.addEventListener("mouseleave", (event) => {
 			lines.forEach(line => {
 				line.removeAttribute("style");
-			})
+			});
+
+			albums.forEach(al => {
+				al.classList.remove("album--revealRank");
+			});
 		})
 	})
 </script>
 
 <style lang="scss">
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding-top: 10rem;
+
+	svg {
+		height: 7.2rem;
+		width: auto;
+	}
+
+	h1 {
+		margin-top: 0;
+
+		font-size: 7.2rem;
+	}
+}
+
 .chart {
 	position: relative;
 
