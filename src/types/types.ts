@@ -19,6 +19,7 @@ export interface AlbumInfo {
 }
 
 export interface Path {
+  sanitized_title: string;
   start: [number, number];
   start_control: [number, number];
   end_control: [number, number];

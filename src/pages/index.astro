@@ -4,8 +4,9 @@ import AlbumCard from '../components/AlbumCard.astro';
 
 import type { Album, AlbumInfo, Path } from "../types/types";
 
+import { sanitizeForDataAttribute } from "../utils/utils";
+
 import json from '../json/albums.json';
-import { isConstructorDeclaration } from 'typescript';
 
 const albums: Album[] = json;
 
@@ -56,6 +57,7 @@ albums.forEach(album => {
 		// console.log(line);
 
 		lines1999.push({
+			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["1999"] - 31],
 			start_control: [100, 46 * album["1999"] - 31],
 			end_control: [665, 46 * album["2003"] - 31],
@@ -65,6 +67,7 @@ albums.forEach(album => {
 
 	if (album["2003"] && album["2022"]) {
 		lines2003.push({
+			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["2003"] - 31],
 			start_control: [100, 46 * album["2003"] - 31],
 			end_control: [665, 46 * album["2022"] - 31],
@@ -74,6 +77,7 @@ albums.forEach(album => {
 
 	if (album["1999"] && album["2022"] && album["2003"] === null) {
 		lines1999.push({
+			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * album["1999"] - 31],
 			start_control: [100, 46 * album["1999"] - 31],
 			end_control: [665, 46 * 170], // Make it go out of bounds
@@ -81,6 +85,7 @@ albums.forEach(album => {
 		});
 
 		lines2003.push({
+			sanitized_title: sanitizeForDataAttribute(album.title),
 			start: [0, 46 * 170], // Make it come from out of bounds
 			start_control: [100, 46 * 170],
 			end_control: [665, 46 * album["2022"] - 31],
@@ -105,7 +110,7 @@ albums.forEach(album => {
 			<div class="lines lines-2003" id="lines-2003">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 765 8387">
 					{ lines1999.map(line => (
-						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#b3b4b6" />
+						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
 					))}
 				</svg>
 			</div>
@@ -119,7 +124,7 @@ albums.forEach(album => {
 			<div class="lines lines-2022" id="lines-2022">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 765 8387">
 					{ lines2003.map(line => (
-						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#b3b4b6" />
+						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
 					))}
 				</svg>
 			</div>
@@ -133,6 +138,29 @@ albums.forEach(album => {
 		</div>
 	</main>
 </Layout>
+
+<script is:inline>
+	const albums = document.querySelectorAll("article.album");
+	const lines = document.querySelectorAll("svg path");
+	albums.forEach(album => {
+		album.addEventListener("mouseenter", (event) => {
+			const title = event.target.dataset.title;
+			lines.forEach(line => {
+				if (line.dataset.title === title) {
+					line.setAttribute("style", "opacity: 1;");	
+				} else {
+					line.setAttribute("style", "opacity: 0.2;");
+				}
+			})
+		});
+
+		album.addEventListener("mouseleave", (event) => {
+			lines.forEach(line => {
+				line.removeAttribute("style");
+			})
+		})
+	})
+</script>
 
 <style lang="scss">
 .chart {
@@ -187,6 +215,13 @@ albums.forEach(album => {
 		svg {
 			height: 100%;
 			width: 100%;
+
+			path {
+				opacity: .6;
+				stroke-width: 2;
+
+				transition: all .2s ease-in-out;
+			}
 		}
 	}
 
