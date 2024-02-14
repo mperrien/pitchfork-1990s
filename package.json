@@ -10,8 +10,26 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.3.6",
     "@astrojs/check": "^0.5.4",
+    "astro": "^4.3.6",
+    "sass": "^1.70.0",
     "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "astroAllowShorthand": true,
+    "overrides": [
+      {
+        "files": "*.astro",
+        "options": {
+          "parser": "astro"
+        }
+      }
+    ],
+    "pluginSearchDirs": [
+      "."
+    ],
+    "plugins": [
+      "prettier-plugin-astro"
+    ]
   }
 }

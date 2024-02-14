@@ -27,7 +27,7 @@
     "title": "Mr. Hood",
     "year": 1991,
     "label": "Asylum",
-    "cover": "mr-hood",
+    "cover": "mr-hood.jpg",
     "1999": null,
     "2003": 98,
     "2022": null
@@ -797,7 +797,7 @@
     "title": "Bossanova",
     "year": 1990,
     "label": "4AD",
-    "cover": "bossanova.jpg",
+    "cover": "bossanova.webp",
     "1999": 45,
     "2003": 28,
     "2022": null
@@ -1050,7 +1050,7 @@
     "title": "Slanted & Enchanted",
     "year": 1992,
     "label": "Matador",
-    "cover": "",
+    "cover": "slanted-enchanted.jpg",
     "1999": 3,
     "2003": 5,
     "2022": 70
@@ -1078,7 +1078,7 @@
     "2022": 99
   },
   {
-    "artist": "My Bloody Vaentine",
+    "artist": "My Bloody Valentine",
     "featuring": [],
     "title": "Loveless",
     "year": 1991,
