@@ -236,7 +236,7 @@
     "title": "The Chronic",
     "year": 1992,
     "label": "Death Row",
-    "cover": "",
+    "cover": "the-chronic.jpg",
     "1999": null,
     "2003": 79,
     "2022": 24
@@ -244,7 +244,7 @@
   {
     "artist": "Stereolab",
     "featuring": [],
-    "title": "Mars Audiac Quintet",
+    "title": "mars-audiac-quintet.jpg",
     "year": 1994,
     "label": "Elektra",
     "cover": "",
@@ -258,7 +258,7 @@
     "title": "Screamadelica",
     "year": 1991,
     "label": "Sire",
-    "cover": "",
+    "cover": "screamadelica.jpg",
     "1999": 95,
     "2003": 77,
     "2022": 96
@@ -269,7 +269,7 @@
     "title": "Deserter's Songs",
     "year": 1998,
     "label": "V2",
-    "cover": "",
+    "cover": "deserters-songs.jpg",
     "1999": null,
     "2003": 76,
     "2022": null
@@ -280,7 +280,7 @@
     "title": "Midnight Marauders",
     "year": 1993,
     "label": "Jive",
-    "cover": "",
+    "cover": "midnight-marauders.jpg",
     "1999": null,
     "2003": 75,
     "2022": 97
@@ -291,7 +291,7 @@
     "title": "Nowhere",
     "year": 1990,
     "label": "Sire",
-    "cover": "",
+    "cover": "nowhere.jpg",
     "1999": null,
     "2003": 74,
     "2022": null
@@ -302,7 +302,7 @@
     "title": "Hissing Prigs in Static Couture",
     "year": 1996,
     "label": "Touch & Go",
-    "cover": "",
+    "cover": "hissing-prigs-in-static-couture.jpg",
     "1999": null,
     "2003": 73,
     "2022": null
@@ -313,7 +313,7 @@
     "title": "American Water",
     "year": 1998,
     "label": "Drag City",
-    "cover": "",
+    "cover": "american-water.webp",
     "1999": null,
     "2003": 72,
     "2022": 21
@@ -324,7 +324,7 @@
     "title": "Octagonecologyst",
     "year": 1996,
     "label": "Dreamworks",
-    "cover": "",
+    "cover": "octagonecologyst.jpg",
     "1999": null,
     "2003": 71,
     "2022": null
@@ -335,7 +335,7 @@
     "title": "For Your Own Special Sweetheart",
     "year": 1994,
     "label": "Atlantic",
-    "cover": "",
+    "cover": "for-your-own-special-sweetheart.jpg",
     "1999": 19,
     "2003": 70,
     "2022": null
@@ -346,7 +346,7 @@
     "title": "Grace",
     "year": 1994,
     "label": "Columbia",
-    "cover": "",
+    "cover": "grace.jpg",
     "1999": 20,
     "2003": 69,
     "2022": 135
@@ -357,7 +357,7 @@
     "title": "XO",
     "year": 1998,
     "label": "Dreamworks",
-    "cover": "",
+    "cover": "xo.jpg",
     "1999": 23,
     "2003": 68,
     "2022": null
@@ -368,7 +368,7 @@
     "title": "Iaora Tahiti",
     "year": 1995,
     "label": "Too Pure",
-    "cover": "",
+    "cover": "iaora-tahiti.jpg",
     "1999": null,
     "2003": 67,
     "2022": null
@@ -379,7 +379,7 @@
     "title": "Maxinquaye",
     "year": 1995,
     "label": "Island",
-    "cover": "",
+    "cover": "maxinquaye.jpg",
     "1999": null,
     "2003": 66,
     "2022": 64
@@ -390,7 +390,7 @@
     "title": "Homework",
     "year": 1997,
     "label": "Virgin",
-    "cover": "",
+    "cover": "homework.jpg",
     "1999": null,
     "2003": 65,
     "2022": 13
@@ -401,7 +401,7 @@
     "title": "Last Splash",
     "year": 1993,
     "label": "4AD",
-    "cover": "",
+    "cover": "last-splash.jpg",
     "1999": 31,
     "2003": 64,
     "2022": 35
@@ -412,7 +412,7 @@
     "title": "De La Soul Is Dead",
     "year": 1991,
     "label": "Tommy Boy",
-    "cover": "",
+    "cover": "de-la-soul-is-dead.jpg",
     "1999": null,
     "2003": 63,
     "2022": 72
@@ -423,7 +423,7 @@
     "title": "Selected Ambient Works, Vol. II",
     "year": 1994,
     "label": "Warp",
-    "cover": "",
+    "cover": "selected-ambient-works-vol-ii.jpg",
     "1999": 100,
     "2003": 62,
     "2022": 53
@@ -434,18 +434,18 @@
     "title": "Different Class",
     "year": 1995,
     "label": "Island",
-    "cover": "",
+    "cover": "different-class.jpg",
     "1999": null,
     "2003": 61,
     "2022": 71
   },
   {
     "artist": "Palace Music",
-    "featuring": [],
+    "featuring": ["Will Oldham"],
     "title": "Viva Last Blues",
     "year": 1995,
     "label": "Drag City",
-    "cover": "",
+    "cover": "viva-last-blues.jpg",
     "1999": null,
     "2003": 60,
     "2022": null
@@ -456,7 +456,7 @@
     "title": "Either/Or",
     "year": 1997,
     "label": "Kill Rock Stars",
-    "cover": "",
+    "cover": "either-or.jpg",
     "1999": 46,
     "2003": 59,
     "2022": 23
@@ -467,7 +467,7 @@
     "title": "Liar",
     "year": 1992,
     "label": "Touch & Go",
-    "cover": "",
+    "cover": "liar.jpg",
     "1999": null,
     "2003": 58,
     "2022": null
@@ -478,7 +478,7 @@
     "title": "Bonsai Superstar",
     "year": 1994,
     "label": "Grass",
-    "cover": "",
+    "cover": "bonsai-superstar.jpg",
     "1999": 26,
     "2003": 57,
     "2022": null
@@ -489,7 +489,7 @@
     "title": "The Low-End Theory",
     "year": 1991,
     "label": "Jive",
-    "cover": "",
+    "cover": "the-low-end-theory.jpg",
     "1999": null,
     "2003": 56,
     "2022": 9
@@ -500,7 +500,7 @@
     "title": "Ladies and Gentlemen, We Are Floating in Space",
     "year": 1997,
     "label": "Dedicated",
-    "cover": "",
+    "cover": "ladies-and-gentlemen-we-are-floating-in-space.webp",
     "1999": null,
     "2003": 55,
     "2022": 86
@@ -511,7 +511,7 @@
     "title": "Parklife",
     "year": 1994,
     "label": "SBK",
-    "cover": "",
+    "cover": "parklife.jpg",
     "1999": 96,
     "2003": 54,
     "2022": null
@@ -522,7 +522,7 @@
     "title": "Pinkerton",
     "year": 1996,
     "label": "DGC",
-    "cover": "",
+    "cover": "pinkerton.jpg",
     "1999": 79,
     "2003": 53,
     "2022": null
@@ -533,7 +533,7 @@
     "title": "Rid of Me",
     "year": 1993,
     "label": "Island",
-    "cover": "",
+    "cover": "rid-of-me.jpg",
     "1999": null,
     "2003": 52,
     "2022": 16
@@ -544,7 +544,7 @@
     "title": "Emperor Tomato Ketchup",
     "year": 1996,
     "label": "Elektra",
-    "cover": "",
+    "cover": "emperor-tomato-ketchup.jpg",
     "1999": 30,
     "2003": 51,
     "2022": 44
@@ -555,7 +555,7 @@
     "title": "Aquemini",
     "year": 1998,
     "label": "LaFace",
-    "cover": "",
+    "cover": "aquemini.jpg",
     "1999": null,
     "2003": 50,
     "2022": 12
@@ -566,7 +566,7 @@
     "title": "Bone Machine",
     "year": 1992,
     "label": "Island",
-    "cover": "",
+    "cover": "bone-machine.jpg",
     "1999": 56,
     "2003": 49,
     "2022": null
@@ -577,7 +577,7 @@
     "title": "Dummy",
     "year": 1994,
     "label": "Go! Discs",
-    "cover": "",
+    "cover": "dummy.jpg",
     "1999": 71,
     "2003": 48,
     "2022": 11
@@ -588,7 +588,7 @@
     "title": "94diskont",
     "year": 1995,
     "label": "Thrill Jockey",
-    "cover": "",
+    "cover": "94diskont.jpg",
     "1999": null,
     "2003": 47,
     "2022": 132
@@ -599,7 +599,7 @@
     "title": "Moon Safari",
     "year": 1998,
     "label": "Astralwerks",
-    "cover": "",
+    "cover": "moon-safari.jpg",
     "1999": null,
     "2003": 46,
     "2022": 103
@@ -610,7 +610,7 @@
     "title": "F♯ A♯ ∞",
     "year": 1998,
     "label": "Kranky",
-    "cover": "",
+    "cover": "f-a.jpg",
     "1999": null,
     "2003": 45,
     "2022": 85
@@ -621,7 +621,7 @@
     "title": "Super Ae",
     "year": 1998,
     "label": "Birdman",
-    "cover": "",
+    "cover": "super-ae.webp",
     "1999": null,
     "2003": 44,
     "2022": 146
@@ -632,7 +632,7 @@
     "title": "Automatic for the People",
     "year": 1992,
     "label": "Warner Bros",
-    "cover": "",
+    "cover": "automatic-for-the-people.jpg",
     "1999": 88,
     "2003": 43,
     "2022": 63
@@ -643,7 +643,7 @@
     "title": "Red Medicine",
     "year": 1995,
     "label": "Dischord",
-    "cover": "",
+    "cover": "red-medicine.jpg",
     "1999": 64,
     "2003": 42,
     "2022": null
@@ -654,7 +654,7 @@
     "title": "Painful",
     "year": 1993,
     "label": "Matador",
-    "cover": "",
+    "cover": "painful.jpg",
     "1999": null,
     "2003": 41,
     "2022": null
@@ -665,7 +665,7 @@
     "title": "The Richard D. James Album",
     "year": 1996,
     "label": "Warp",
-    "cover": "",
+    "cover": "the-richard-d-james-album.jpg",
     "1999": null,
     "2003": 40,
     "2022": 34
@@ -676,7 +676,7 @@
     "title": "Dusk at Cubist Castle",
     "year": 1996,
     "label": "Flydaddy",
-    "cover": "",
+    "cover": "dusk-at-cubist-castle.jpg",
     "1999": null,
     "2003": 39,
     "2022": null
@@ -687,7 +687,7 @@
     "title": "Goat",
     "year": 1991,
     "label": "Touch & Go",
-    "cover": "",
+    "cover": "goat.webp",
     "1999": null,
     "2003": 38,
     "2022": null
@@ -698,18 +698,18 @@
     "title": "69 Love Songs",
     "year": 1999,
     "label": "Merge",
-    "cover": "",
+    "cover": "69-love-songs.jpg",
     "1999": null,
     "2003": 37,
     "2022": 78
   },
   {
     "artist": "Wu-Tang Clan",
-    "featuring": [],
+    "featuring": ["GZA/Genius", "Raekwon", "Ol’ Dirty Bastard"],
     "title": "Enter the Wu-Tang (36 Chambers)",
     "year": 1993,
     "label": "Loud",
-    "cover": "",
+    "cover": "enter-the-wu-tang-36-chambers.jpg",
     "1999": null,
     "2003": 36,
     "2022": 5
@@ -720,7 +720,7 @@
     "title": "Music Has the Right to Children",
     "year": 1998,
     "label": "Warp",
-    "cover": "",
+    "cover": "music-has-the-right-to-children.jpg",
     "1999": null,
     "2003": 35,
     "2022": 26
@@ -731,7 +731,7 @@
     "title": "Check Your Head",
     "year": 1992,
     "label": "Grand Royal",
-    "cover": "",
+    "cover": "check-your-head.jpg",
     "1999": 16,
     "2003": 34,
     "2022": 67
@@ -742,7 +742,7 @@
     "title": "Illmatic",
     "year": 1994,
     "label": "Columbia",
-    "cover": "",
+    "cover": "illmatic.jpg",
     "1999": null,
     "2003": 33,
     "2022": 22
@@ -753,7 +753,7 @@
     "title": "Ready to Die",
     "year": 1994,
     "label": "Bad Boy",
-    "cover": "",
+    "cover": "ready-to-die.jpg",
     "1999": null,
     "2003": 32,
     "2022": 14
@@ -764,7 +764,7 @@
     "title": "Summerteeth",
     "year": 1999,
     "label": "Reprise",
-    "cover": "",
+    "cover": "summerteeth.jpg",
     "1999": null,
     "2003": 31,
     "2022": 102
@@ -775,7 +775,7 @@
     "title": "Exile in Guyville",
     "year": 1993,
     "label": "Matador",
-    "cover": "",
+    "cover": "exile-in-guyville.jpg",
     "1999": 6,
     "2003": 30,
     "2022": 4
@@ -786,7 +786,7 @@
     "title": "The Lonesome Crowded West",
     "year": 1997,
     "label": "Up",
-    "cover": "",
+    "cover": "the-lonesome-crowded-west.jpg",
     "1999": 65,
     "2003": 29,
     "2022": 125
@@ -797,7 +797,7 @@
     "title": "Bossanova",
     "year": 1990,
     "label": "4AD",
-    "cover": "",
+    "cover": "bossanova.jpg",
     "1999": 45,
     "2003": 28,
     "2022": null
@@ -808,7 +808,7 @@
     "title": "Alien Lanes",
     "year": 1995,
     "label": "Matador",
-    "cover": "",
+    "cover": "alien-lanes.jpg",
     "1999": 33,
     "2003": 27,
     "2022": null
@@ -819,7 +819,7 @@
     "title": "Weezer (The Blue Album)",
     "year": 1994,
     "label": "DGC",
-    "cover": "",
+    "cover": "weezer-the-blue-album.jpg",
     "1999": 13,
     "2003": 26,
     "2022": 91
@@ -830,7 +830,7 @@
     "title": "I Can Hear the Heart Beating as One",
     "year": 1997,
     "label": "Matador",
-    "cover": "",
+    "cover": "i-can-hear-the-heart-beating-as-one.webp",
     "1999": 22,
     "2003": 25,
     "2022": 73
@@ -841,7 +841,7 @@
     "title": "There's Nothing Wrong with Love",
     "year": 1994,
     "label": "Up",
-    "cover": "",
+    "cover": "theres-nothing-wrong-with-love.jpg",
     "1999": 11,
     "2003": 24,
     "2022": null
@@ -852,7 +852,7 @@
     "title": "The Three EPs",
     "year": 1999,
     "label": "Astralwerks",
-    "cover": "",
+    "cover": "the-three-eps.jpg",
     "1999": null,
     "2003": 23,
     "2022": null
@@ -863,7 +863,7 @@
     "title": "Perfect from Now On",
     "year": 1997,
     "label": "Warner Bros",
-    "cover": "",
+    "cover": "perfect-from-now-on.jpg",
     "1999": 39,
     "2003": 22,
     "2022": null
@@ -874,7 +874,7 @@
     "title": "Homogenic",
     "year": 1997,
     "label": "Elektra",
-    "cover": "",
+    "cover": "homogenic.jpg",
     "1999": 18,
     "2003": 21,
     "2022": 6
@@ -885,7 +885,7 @@
     "title": "Post",
     "year": 1995,
     "label": "Elektra",
-    "cover": "",
+    "cover": "post.webp",
     "1999": 35,
     "2003": 20,
     "2022": 28
@@ -896,7 +896,7 @@
     "title": "Odelay",
     "year": 1996,
     "label": "DGC",
-    "cover": "",
+    "cover": "odelay.jpg",
     "1999": 9,
     "2003": 19,
     "2022": 93
@@ -907,7 +907,7 @@
     "title": "Siamese Dream",
     "year": 1993,
     "label": "Virgin",
-    "cover": "",
+    "cover": "siamese-dream.jpg",
     "1999": 50,
     "2003": 18,
     "2022": 98
@@ -918,7 +918,7 @@
     "title": "Fear of a Black Planet",
     "year": 1990,
     "label": "Def Jam",
-    "cover": "",
+    "cover": "fear-of-a-black-planet.jpg",
     "1999": null,
     "2003": 17,
     "2022": null
@@ -929,7 +929,7 @@
     "title": "Emergency & I",
     "year": 1999,
     "label": "DeSoto",
-    "cover": "",
+    "cover": "emergency-i.jpg",
     "1999": 42,
     "2003": 16,
     "2022": null
@@ -940,7 +940,7 @@
     "title": "The Bends",
     "year": 1995,
     "label": "Capitol",
-    "cover": "",
+    "cover": "the-bends.jpg",
     "1999": 14,
     "2003": 15,
     "2022": 81
@@ -951,7 +951,7 @@
     "title": "If You're Feeling Sinister",
     "year": 1996,
     "label": "The Enclave",
-    "cover": "",
+    "cover": "if-youre-feeling-sinister.jpg",
     "1999": 55,
     "2003": 14,
     "2022": 25
@@ -962,7 +962,7 @@
     "title": "In Utero",
     "year": 1993,
     "label": "DGC",
-    "cover": "",
+    "cover": "in-utero.jpg",
     "1999": 77,
     "2003": 13,
     "2022": 75
@@ -973,7 +973,7 @@
     "title": "Spiderland",
     "year": 1991,
     "label": "Touch & Go",
-    "cover": "",
+    "cover": "spiderland.jpg",
     "1999": 34,
     "2003": 12,
     "2022": 83
@@ -984,7 +984,7 @@
     "title": "Laughing Stock",
     "year": 1991,
     "label": "Polydor",
-    "cover": "",
+    "cover": "laughing-stock.jpg",
     "1999": null,
     "2003": 11,
     "2022": 33
@@ -995,18 +995,18 @@
     "title": "Bee Thousand",
     "year": 1994,
     "label": "Scat",
-    "cover": "",
+    "cover": "bee-thousand.jpg",
     "1999": 4,
     "2003": 10,
     "2022": 123
   },
   {
     "artist": "Bonnie \"Prince\" Billy",
-    "featuring": [],
+    "featuring": ["Will Oldham"],
     "title": "I See a Darkness",
     "year": 1999,
     "label": "Palace",
-    "cover": "",
+    "cover": "i-see-a-darkness.jpg",
     "1999": null,
     "2003": 9,
     "2022": null
@@ -1017,7 +1017,7 @@
     "title": "Crooked Rain, Crooked Rain",
     "year": 1994,
     "label": "Matador",
-    "cover": "",
+    "cover": "crooked-rain-crooked-rain.jpg",
     "1999": 10,
     "2003": 8,
     "2022": 29
@@ -1025,10 +1025,10 @@
   {
     "artist": "DJ Shadow",
     "featuring": [],
-    "title": "...Endtroducing",
+    "title": "Endtroducing.....",
     "year": 1996,
     "label": "Mo'Wax",
-    "cover": "",
+    "cover": "entroducing.jpg",
     "1999": 7,
     "2003": 7,
     "2022": 49
@@ -1039,7 +1039,7 @@
     "title": "Nevermind",
     "year": 1991,
     "label": "DGC",
-    "cover": "",
+    "cover": "nevermind.jpg",
     "1999": 5,
     "2003": 6,
     "2022": 10
@@ -1061,7 +1061,7 @@
     "title": "In the Aeroplane Over the Sea",
     "year": 1998,
     "label": "Merge",
-    "cover": "",
+    "cover": "in-the-aeroplane-over-the-sea.jpg",
     "1999": 85,
     "2003": 4,
     "2022": 31
@@ -1072,7 +1072,7 @@
     "title": "The Soft Bulletin",
     "year": 1999,
     "label": "Warner Bros",
-    "cover": "",
+    "cover": "the-soft-bulletin.jpg",
     "1999": null,
     "2003": 3,
     "2022": 99
@@ -1083,7 +1083,7 @@
     "title": "Loveless",
     "year": 1991,
     "label": "Creation",
-    "cover": "",
+    "cover": "loveless.jpg",
     "1999": 1,
     "2003": 2,
     "2022": 1
@@ -1094,7 +1094,7 @@
     "title": "OK Computer",
     "year": 1997,
     "label": "Capitol",
-    "cover": "",
+    "cover": "ok-computer.webp",
     "1999": 2,
     "2003": 1,
     "2022": 3
@@ -1277,7 +1277,7 @@
   },
   {
     "artist": "Heatmiser",
-    "featuring": [],
+    "featuring": ["Elliott Smith"],
     "title": "Mic City Sons",
     "year": 1996,
     "label": "Caroline",
