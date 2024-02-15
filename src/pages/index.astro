@@ -90,9 +90,12 @@ albums.forEach(album => {
 
 <Layout title="A Pitchfork History of the 1990s">
 	<main>
-		<header>
+		<header class="page-header">
 			<Icon name="pitchfork" />
 			<h1>A Pitchfork History of the 1990s</h1>
+			<p>
+				<a href="#about">What's that‽</a>
+			</p>
 		</header>
 		<div class="chart">
 			<div class="year year--1999">
@@ -133,6 +136,64 @@ albums.forEach(album => {
 				</ol>
 			</div>
 		</div>
+		<section class="controls">
+			<div class="container">
+				<header>
+					<h2>Controls</h2>
+				</header>
+				<div class="controls__section">
+					<h3>Highlight album</h3>
+					<p>
+						Click an album cover to highlight it in each list. It allows you to scroll to better observe its ranking changes.
+					</p>
+				</div>
+				<div class="controls__section">
+					<h3>Highlight albums by genre</h3>
+					<p>Are some genres more present depending on the year the list was put together? The albums where volontarily dispatched in three wide genres. <strong>Rock</strong> is basically everything with a guitar, from Fugazi to My Bloody Valentine, including Elliott Smith and Blur. <strong>Electronic</strong> groups albums from Aphex Twin and Portishead, and everything in between. <strong>Hip-hop</strong> is rap and R'N'B from The Notorious B.I.G. to Janet Jackson.</p>
+					<div class="controls__buttons">
+						<button class="button" role="button">Rock</button>
+						<button class="button" role="button">Electronic</button>
+						<button class="button" role="button">Hip-hop</button>
+					</div>
+				</div>
+				<div class="controls__section">
+					<h3>Highlight albums by behaviour</h3>
+					<p>With 240 different albums present, the lists are quite unstable. I've sorted the albums into three categories. <strong>Survivors</strong> are albums that are present in the three lists. <strong>Orphans</strong> are albums that only made it to one list. <strong>Comebacks</strong> are albums that are present in the first and last lists, but not in the 2003 list.</p>
+					<div class="controls__buttons">
+						<button class="button" role="button" id="survivors">
+							Survivors
+						</button>
+						<button class="button" role="button" id="orphans">
+							Orphans
+						</button>
+						<button class="button" role="button" id="comebacks">
+							Comebacks
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<header>
+					<h2>Music journalists love ranking things.</h2>
+					<p class="subtitle">What's that‽</p>
+				</header>
+				<p>And Pitchfork writers certainly are not exception to the rule. Over the years, Pitchfork has published not one, not two, but three (3) definitive lists of the best albums of the 1990s.</p>
+				<ul>
+					<li>
+						<a href="https://www.listal.com/list/pitchforks-top-100-albums-1990s-mrsaturn" target="_blank" rel="noopener noreferer">Top 100 Favorite Albums of the 1990s</a> was published in 1999 and is not available on Pitchfork anymore;
+					</li>
+					<li>
+						<a href="https://pitchfork.com/features/lists-and-guides/5923-top-100-albums-of-the-1990s/" target="_blank" rel="noopener noreferer">Top 100 Albums of the 1990s</a>, published in 2003;
+					</li>
+					<li>
+						<a href="https://pitchfork.com/features/lists-and-guides/the-best-albums-of-the-1990s/" target="_blank" rel="noopener noreferer">The 150 Best Albums of the 1990s</a>, published in 2022.
+					</li>
+				</ul>
+				<p>This small data visualization tries to show the changes in those lists, and maybe, surface larger trends.</p>
+			</div>
+		</section>
 	</main>
 </Layout>
 
@@ -170,7 +231,7 @@ albums.forEach(album => {
 </script>
 
 <style lang="scss">
-header {
+.page-header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -188,6 +249,16 @@ header {
 
 		font-size: 7.2rem;
 		text-align: center;
+	}
+
+	a {
+		color: var(--pitchfork-red);
+		font-size: 2.4rem;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
@@ -322,6 +393,96 @@ header {
 
 				color: #f1f2f3;
 			}
+		}
+	}
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1.6rem;
+	padding-left: 1.6rem;
+	width: 100%;
+	max-width: 90rem;
+}
+
+.controls,
+.about {
+	padding-top: 7.2rem;
+	padding-bottom: 7.2rem;
+
+	font-size: 1.8rem;
+	line-height: 1.5;
+
+	header {
+		margin-bottom: 4.8rem;
+
+		text-align: center;
+
+		h2 {
+			margin: 0;
+			font-size: 4.8rem;
+		}
+	}
+
+	a {
+		color: var(--pitchfork-red);
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.controls {
+	background-color: #f3f4f5;
+
+	.controls__section + .controls__section {
+		margin-top: 4.8rem;
+	}
+
+	&__buttons {
+		display: flex;
+		gap: 1.6rem;
+	}
+
+	.button {
+		padding: .4rem .8rem;
+
+		background-color: #dbddde;
+		border: .1rem solid #cfd2d5;
+		border-radius: .3rem;
+		cursor: pointer;
+
+		// color: var(--pitchfork-red);
+		font-size: 2rem;
+		font-weight: 500;
+
+		&:hover {
+			background-color: #cfd2d5;
+		}
+
+		&--active {
+			background-color: var(--pitchfork-red) !important;
+			border-color: var(--pitchfork-red);
+		}
+	}
+}
+
+.about {
+	background-color: rgb(33 34 35 / 1);
+
+	color: #f3f4f5;
+
+	header {
+		display: flex;
+		flex-direction: column-reverse;
+
+		p {
+			color: var(--pitchfork-red);
+			font-weight: 700;
+			text-transform: uppercase;
 		}
 	}
 }
