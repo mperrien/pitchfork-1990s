@@ -476,7 +476,7 @@ Object.keys(genres).forEach(g => {
 	padding-top: 10rem;
 
 
-	overflow: hidden;
+	// overflow-y: hidden;
 
 	&::after {
 		content: "";
@@ -626,6 +626,9 @@ Object.keys(genres).forEach(g => {
 .behaviour,
 .controls,
 .about {
+	position: relative;
+	z-index: 2;
+
 	padding-top: 7.2rem;
 	padding-bottom: 7.2rem;
 
