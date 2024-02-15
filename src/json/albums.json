@@ -1,7 +1,7 @@
 [
   {
     "artist": "The Orb",
-    "featuring": [],
+    "performers": [],
     "title": "The Orb's Adventures Beyond the Ultraworld",
     "year": 1991,
     "label": "Big Life",
@@ -13,7 +13,7 @@
   },
   {
     "artist": "Raekwon",
-    "featuring": [],
+    "performers": [],
     "title": "Only Built 4 Cuban Linx",
     "year": 1995,
     "label": "Loud",
@@ -25,7 +25,7 @@
   },
   {
     "artist": "KMD",
-    "featuring": [],
+    "performers": [],
     "title": "Mr. Hood",
     "year": 1991,
     "label": "Asylum",
@@ -37,7 +37,7 @@
   },
   {
     "artist": "Mogwai",
-    "featuring": [],
+    "performers": [],
     "title": "Mogwai Young Team",
     "year": 1997,
     "label": "Jetset",
@@ -49,7 +49,7 @@
   },
   {
     "artist": "Herbert",
-    "featuring": [],
+    "performers": [],
     "title": "Around the House",
     "year": 1998,
     "label": "!K7",
@@ -61,7 +61,7 @@
   },
   {
     "artist": "Massive Attack",
-    "featuring": [],
+    "performers": [],
     "title": "Mezzanine",
     "year": 1998,
     "label": "Virgin",
@@ -73,7 +73,7 @@
   },
   {
     "artist": "Franck Black",
-    "featuring": [],
+    "performers": [],
     "title": "Teenager of the Year",
     "year": 1994,
     "label": "4AD",
@@ -85,7 +85,7 @@
   },
   {
     "artist": "Bob Dylan",
-    "featuring": [],
+    "performers": [],
     "title": "Time Out of Mind",
     "year": 1997,
     "label": "Columbia",
@@ -97,7 +97,7 @@
   },
   {
     "artist": "Scott Walker",
-    "featuring": [],
+    "performers": [],
     "title": "Tilt",
     "year": 1995,
     "label": "Drag City",
@@ -109,7 +109,7 @@
   },
   {
     "artist": "Tortoise",
-    "featuring": [],
+    "performers": [],
     "title": "TNT",
     "year": 1998,
     "label": "Thrill Jockey",
@@ -121,7 +121,7 @@
   },
   {
     "artist": "Cocteau Twins",
-    "featuring": [],
+    "performers": [],
     "title": "Heaven or Las Vegas",
     "year": 1990,
     "label": "4AD",
@@ -133,7 +133,7 @@
   },
   {
     "artist": "Squarepusher",
-    "featuring": [],
+    "performers": [],
     "title": "Music Is Rotted One Note",
     "year": 1999,
     "label": "Warp",
@@ -145,7 +145,7 @@
   },
   {
     "artist": "Wilco",
-    "featuring": [],
+    "performers": [],
     "title": "Being There",
     "year": 1996,
     "label": "Reprise",
@@ -157,7 +157,7 @@
   },
   {
     "artist": "GZA/Genius",
-    "featuring": [],
+    "performers": [],
     "title": "Liquid Swords",
     "year": 1995,
     "label": "Geffen",
@@ -169,7 +169,7 @@
   },
   {
     "artist": "Destroyer",
-    "featuring": [],
+    "performers": [],
     "title": "City of Daughters",
     "year": 1998,
     "label": "Triple Crown",
@@ -181,7 +181,7 @@
   },
   {
     "artist": "Massive Attack",
-    "featuring": [],
+    "performers": [],
     "title": "Blue Lines",
     "year": 1991,
     "label": "Virgin",
@@ -193,7 +193,7 @@
   },
   {
     "artist": "Company Flow",
-    "featuring": [],
+    "performers": [],
     "title": "Funcrusher Plus",
     "year": 1997,
     "label": "Rawkus",
@@ -205,7 +205,7 @@
   },
   {
     "artist": "Pixies",
-    "featuring": ["Kim Deal", "Frank Black"],
+    "performers": ["Kim Deal", "Frank Black"],
     "title": "Trompe Le Monde",
     "year": 1991,
     "label": "4AD",
@@ -217,7 +217,7 @@
   },
   {
     "artist": "Sonic Youth",
-    "featuring": [],
+    "performers": [],
     "title": "Goo",
     "year": 1990,
     "label": "DGC",
@@ -229,7 +229,7 @@
   },
   {
     "artist": "The Breeders",
-    "featuring": ["Kim Deal"],
+    "performers": ["Kim Deal"],
     "title": "Pod",
     "year": 1990,
     "label": "4AD",
@@ -241,7 +241,7 @@
   },
   {
     "artist": "The Pharcyde",
-    "featuring": [],
+    "performers": [],
     "title": "Bizarre Ride II The Pharcyde",
     "year": 1992,
     "label": "Delicious Vinyl",
@@ -253,7 +253,7 @@
   },
   {
     "artist": "Dr. Dre",
-    "featuring": [],
+    "performers": [],
     "title": "The Chronic",
     "year": 1992,
     "label": "Death Row",
@@ -265,7 +265,7 @@
   },
   {
     "artist": "Stereolab",
-    "featuring": [],
+    "performers": [],
     "title": "Mars Audiac Quintet",
     "year": 1994,
     "label": "Elektra",
@@ -277,7 +277,7 @@
   },
   {
     "artist": "Primal Scream",
-    "featuring": [],
+    "performers": [],
     "title": "Screamadelica",
     "year": 1991,
     "label": "Sire",
@@ -289,7 +289,7 @@
   },
   {
     "artist": "Mercury Rev",
-    "featuring": [],
+    "performers": [],
     "title": "Deserter's Songs",
     "year": 1998,
     "label": "V2",
@@ -301,7 +301,7 @@
   },
   {
     "artist": "A Tribe Called Quest",
-    "featuring": [],
+    "performers": [],
     "title": "Midnight Marauders",
     "year": 1993,
     "label": "Jive",
@@ -313,7 +313,7 @@
   },
   {
     "artist": "Ride",
-    "featuring": [],
+    "performers": [],
     "title": "Nowhere",
     "year": 1990,
     "label": "Sire",
@@ -325,7 +325,7 @@
   },
   {
     "artist": "Brainiac",
-    "featuring": [],
+    "performers": [],
     "title": "Hissing Prigs in Static Couture",
     "year": 1996,
     "label": "Touch & Go",
@@ -337,7 +337,7 @@
   },
   {
     "artist": "Silver Jews",
-    "featuring": [],
+    "performers": [],
     "title": "American Water",
     "year": 1998,
     "label": "Drag City",
@@ -349,7 +349,7 @@
   },
   {
     "artist": "Dr. Octagon",
-    "featuring": [],
+    "performers": [],
     "title": "Octagonecologyst",
     "year": 1996,
     "label": "Dreamworks",
@@ -361,7 +361,7 @@
   },
   {
     "artist": "Jawbox",
-    "featuring": [],
+    "performers": [],
     "title": "For Your Own Special Sweetheart",
     "year": 1994,
     "label": "Atlantic",
@@ -373,7 +373,7 @@
   },
   {
     "artist": "Jeff Buckley",
-    "featuring": [],
+    "performers": [],
     "title": "Grace",
     "year": 1994,
     "label": "Columbia",
@@ -385,7 +385,7 @@
   },
   {
     "artist": "Elliott Smith",
-    "featuring": [],
+    "performers": [],
     "title": "XO",
     "year": 1998,
     "label": "Dreamworks",
@@ -397,7 +397,7 @@
   },
   {
     "artist": "Mouse on Mars",
-    "featuring": [],
+    "performers": [],
     "title": "Iaora Tahiti",
     "year": 1995,
     "label": "Too Pure",
@@ -409,7 +409,7 @@
   },
   {
     "artist": "Tricky",
-    "featuring": [],
+    "performers": [],
     "title": "Maxinquaye",
     "year": 1995,
     "label": "Island",
@@ -421,7 +421,7 @@
   },
   {
     "artist": "Daft Punk",
-    "featuring": [],
+    "performers": [],
     "title": "Homework",
     "year": 1997,
     "label": "Virgin",
@@ -433,7 +433,7 @@
   },
   {
     "artist": "The Breeders",
-    "featuring": ["Kim Deal"],
+    "performers": ["Kim Deal"],
     "title": "Last Splash",
     "year": 1993,
     "label": "4AD",
@@ -445,7 +445,7 @@
   },
   {
     "artist": "De La Soul",
-    "featuring": [],
+    "performers": [],
     "title": "De La Soul Is Dead",
     "year": 1991,
     "label": "Tommy Boy",
@@ -457,7 +457,7 @@
   },
   {
     "artist": "Aphex Twin",
-    "featuring": [],
+    "performers": [],
     "title": "Selected Ambient Works, Vol. II",
     "year": 1994,
     "label": "Warp",
@@ -469,7 +469,7 @@
   },
   {
     "artist": "Pulp",
-    "featuring": [],
+    "performers": [],
     "title": "Different Class",
     "year": 1995,
     "label": "Island",
@@ -481,7 +481,7 @@
   },
   {
     "artist": "Palace Music",
-    "featuring": ["Will Oldham"],
+    "performers": ["Will Oldham"],
     "title": "Viva Last Blues",
     "year": 1995,
     "label": "Drag City",
@@ -493,7 +493,7 @@
   },
   {
     "artist": "Elliott Smith",
-    "featuring": [],
+    "performers": [],
     "title": "Either/Or",
     "year": 1997,
     "label": "Kill Rock Stars",
@@ -505,7 +505,7 @@
   },
   {
     "artist": "The Jesus Lizard",
-    "featuring": [],
+    "performers": [],
     "title": "Liar",
     "year": 1992,
     "label": "Touch & Go",
@@ -517,7 +517,7 @@
   },
   {
     "artist": "Brainiac",
-    "featuring": [],
+    "performers": [],
     "title": "Bonsai Superstar",
     "year": 1994,
     "label": "Grass",
@@ -529,7 +529,7 @@
   },
   {
     "artist": "A Tribe Called Quest",
-    "featuring": [],
+    "performers": [],
     "title": "The Low-End Theory",
     "year": 1991,
     "label": "Jive",
@@ -541,7 +541,7 @@
   },
   {
     "artist": "Spiritualized",
-    "featuring": [],
+    "performers": [],
     "title": "Ladies and Gentlemen, We Are Floating in Space",
     "year": 1997,
     "label": "Dedicated",
@@ -553,7 +553,7 @@
   },
   {
     "artist": "Blur",
-    "featuring": [],
+    "performers": [],
     "title": "Parklife",
     "year": 1994,
     "label": "SBK",
@@ -565,7 +565,7 @@
   },
   {
     "artist": "Weezer",
-    "featuring": [],
+    "performers": [],
     "title": "Pinkerton",
     "year": 1996,
     "label": "DGC",
@@ -577,7 +577,7 @@
   },
   {
     "artist": "PJ Harvey",
-    "featuring": [],
+    "performers": [],
     "title": "Rid of Me",
     "year": 1993,
     "label": "Island",
@@ -589,7 +589,7 @@
   },
   {
     "artist": "Stereolab",
-    "featuring": [],
+    "performers": [],
     "title": "Emperor Tomato Ketchup",
     "year": 1996,
     "label": "Elektra",
@@ -601,7 +601,7 @@
   },
   {
     "artist": "Outkast",
-    "featuring": [],
+    "performers": [],
     "title": "Aquemini",
     "year": 1998,
     "label": "LaFace",
@@ -613,7 +613,7 @@
   },
   {
     "artist": "Tom Waits",
-    "featuring": [],
+    "performers": [],
     "title": "Bone Machine",
     "year": 1992,
     "label": "Island",
@@ -625,7 +625,7 @@
   },
   {
     "artist": "Portishead",
-    "featuring": [],
+    "performers": [],
     "title": "Dummy",
     "year": 1994,
     "label": "Go! Discs",
@@ -637,7 +637,7 @@
   },
   {
     "artist": "Oval",
-    "featuring": [],
+    "performers": [],
     "title": "94diskont",
     "year": 1995,
     "label": "Thrill Jockey",
@@ -649,7 +649,7 @@
   },
   {
     "artist": "Air",
-    "featuring": [],
+    "performers": [],
     "title": "Moon Safari",
     "year": 1998,
     "label": "Astralwerks",
@@ -661,7 +661,7 @@
   },
   {
     "artist": "Godspeed You! Black Emperor",
-    "featuring": [],
+    "performers": [],
     "title": "F♯ A♯ ∞",
     "year": 1998,
     "label": "Kranky",
@@ -673,7 +673,7 @@
   },
   {
     "artist": "Boredoms",
-    "featuring": [],
+    "performers": [],
     "title": "Super Ae",
     "year": 1998,
     "label": "Birdman",
@@ -685,7 +685,7 @@
   },
   {
     "artist": "R.E.M.",
-    "featuring": [],
+    "performers": [],
     "title": "Automatic for the People",
     "year": 1992,
     "label": "Warner Bros",
@@ -697,7 +697,7 @@
   },
   {
     "artist": "Fugazi",
-    "featuring": [],
+    "performers": [],
     "title": "Red Medicine",
     "year": 1995,
     "label": "Dischord",
@@ -709,7 +709,7 @@
   },
   {
     "artist": "Yo La Tengo",
-    "featuring": [],
+    "performers": [],
     "title": "Painful",
     "year": 1993,
     "label": "Matador",
@@ -721,7 +721,7 @@
   },
   {
     "artist": "Aphex Twin",
-    "featuring": [],
+    "performers": [],
     "title": "The Richard D. James Album",
     "year": 1996,
     "label": "Warp",
@@ -733,7 +733,7 @@
   },
   {
     "artist": "Olivia Tremor Control",
-    "featuring": [],
+    "performers": [],
     "title": "Dusk at Cubist Castle",
     "year": 1996,
     "label": "Flydaddy",
@@ -745,7 +745,7 @@
   },
   {
     "artist": "The Jesus Lizard",
-    "featuring": [],
+    "performers": [],
     "title": "Goat",
     "year": 1991,
     "label": "Touch & Go",
@@ -757,7 +757,7 @@
   },
   {
     "artist": "The Magnetic Fields",
-    "featuring": ["Stephen Merritt"],
+    "performers": ["Stephen Merritt"],
     "title": "69 Love Songs",
     "year": 1999,
     "label": "Merge",
@@ -769,7 +769,7 @@
   },
   {
     "artist": "Wu-Tang Clan",
-    "featuring": ["GZA/Genius", "Raekwon", "Ol’ Dirty Bastard"],
+    "performers": ["GZA/Genius", "Raekwon", "Ol’ Dirty Bastard"],
     "title": "Enter the Wu-Tang (36 Chambers)",
     "year": 1993,
     "label": "Loud",
@@ -781,7 +781,7 @@
   },
   {
     "artist": "Boards of Canada",
-    "featuring": [],
+    "performers": [],
     "title": "Music Has the Right to Children",
     "year": 1998,
     "label": "Warp",
@@ -793,7 +793,7 @@
   },
   {
     "artist": "Beastie Boys",
-    "featuring": [],
+    "performers": [],
     "title": "Check Your Head",
     "year": 1992,
     "label": "Grand Royal",
@@ -805,7 +805,7 @@
   },
   {
     "artist": "Nas",
-    "featuring": [],
+    "performers": [],
     "title": "Illmatic",
     "year": 1994,
     "label": "Columbia",
@@ -817,7 +817,7 @@
   },
   {
     "artist": "The Notorious B.I.G.",
-    "featuring": [],
+    "performers": [],
     "title": "Ready to Die",
     "year": 1994,
     "label": "Bad Boy",
@@ -829,7 +829,7 @@
   },
   {
     "artist": "Wilco",
-    "featuring": [],
+    "performers": [],
     "title": "Summerteeth",
     "year": 1999,
     "label": "Reprise",
@@ -841,7 +841,7 @@
   },
   {
     "artist": "Liz Phair",
-    "featuring": [],
+    "performers": [],
     "title": "Exile in Guyville",
     "year": 1993,
     "label": "Matador",
@@ -853,7 +853,7 @@
   },
   {
     "artist": "Modest Mouse",
-    "featuring": [],
+    "performers": [],
     "title": "The Lonesome Crowded West",
     "year": 1997,
     "label": "Up",
@@ -865,7 +865,7 @@
   },
   {
     "artist": "Pixies",
-    "featuring": ["Kim Deal", "Frank Black"],
+    "performers": ["Kim Deal", "Frank Black"],
     "title": "Bossanova",
     "year": 1990,
     "label": "4AD",
@@ -877,7 +877,7 @@
   },
   {
     "artist": "Guided by Voices",
-    "featuring": [],
+    "performers": [],
     "title": "Alien Lanes",
     "year": 1995,
     "label": "Matador",
@@ -889,7 +889,7 @@
   },
   {
     "artist": "Weezer",
-    "featuring": [],
+    "performers": [],
     "title": "Weezer (The Blue Album)",
     "year": 1994,
     "label": "DGC",
@@ -901,7 +901,7 @@
   },
   {
     "artist": "Yo La Tengo",
-    "featuring": [],
+    "performers": [],
     "title": "I Can Hear the Heart Beating as One",
     "year": 1997,
     "label": "Matador",
@@ -913,7 +913,7 @@
   },
   {
     "artist": "Built to Spill",
-    "featuring": [],
+    "performers": [],
     "title": "There's Nothing Wrong with Love",
     "year": 1994,
     "label": "Up",
@@ -925,7 +925,7 @@
   },
   {
     "artist": "The Beta Band",
-    "featuring": [],
+    "performers": [],
     "title": "The Three EPs",
     "year": 1999,
     "label": "Astralwerks",
@@ -937,7 +937,7 @@
   },
   {
     "artist": "Built to Spill",
-    "featuring": ["Scott Plouf"],
+    "performers": ["Scott Plouf"],
     "title": "Perfect from Now On",
     "year": 1997,
     "label": "Warner Bros",
@@ -949,7 +949,7 @@
   },
   {
     "artist": "Björk",
-    "featuring": [],
+    "performers": [],
     "title": "Homogenic",
     "year": 1997,
     "label": "Elektra",
@@ -961,7 +961,7 @@
   },
   {
     "artist": "Björk",
-    "featuring": [],
+    "performers": [],
     "title": "Post",
     "year": 1995,
     "label": "Elektra",
@@ -973,7 +973,7 @@
   },
   {
     "artist": "Beck",
-    "featuring": [],
+    "performers": [],
     "title": "Odelay",
     "year": 1996,
     "label": "DGC",
@@ -985,7 +985,7 @@
   },
   {
     "artist": "Smashing Pumpkins",
-    "featuring": [],
+    "performers": [],
     "title": "Siamese Dream",
     "year": 1993,
     "label": "Virgin",
@@ -997,7 +997,7 @@
   },
   {
     "artist": "Public Enemy",
-    "featuring": [],
+    "performers": [],
     "title": "Fear of a Black Planet",
     "year": 1990,
     "label": "Def Jam",
@@ -1009,7 +1009,7 @@
   },
   {
     "artist": "The Dismemberment Plan",
-    "featuring": [],
+    "performers": [],
     "title": "Emergency & I",
     "year": 1999,
     "label": "DeSoto",
@@ -1021,7 +1021,7 @@
   },
   {
     "artist": "Radiohead",
-    "featuring": [],
+    "performers": [],
     "title": "The Bends",
     "year": 1995,
     "label": "Capitol",
@@ -1033,7 +1033,7 @@
   },
   {
     "artist": "Belle & Sebastian",
-    "featuring": [],
+    "performers": [],
     "title": "If You're Feeling Sinister",
     "year": 1996,
     "label": "The Enclave",
@@ -1045,7 +1045,7 @@
   },
   {
     "artist": "Nirvana",
-    "featuring": [],
+    "performers": [],
     "title": "In Utero",
     "year": 1993,
     "label": "DGC",
@@ -1057,7 +1057,7 @@
   },
   {
     "artist": "Slint",
-    "featuring": [],
+    "performers": [],
     "title": "Spiderland",
     "year": 1991,
     "label": "Touch & Go",
@@ -1069,7 +1069,7 @@
   },
   {
     "artist": "Talk Talk",
-    "featuring": [],
+    "performers": [],
     "title": "Laughing Stock",
     "year": 1991,
     "label": "Polydor",
@@ -1081,7 +1081,7 @@
   },
   {
     "artist": "Guided by Voices",
-    "featuring": [],
+    "performers": [],
     "title": "Bee Thousand",
     "year": 1994,
     "label": "Scat",
@@ -1093,7 +1093,7 @@
   },
   {
     "artist": "Bonnie \"Prince\" Billy",
-    "featuring": ["Will Oldham"],
+    "performers": ["Will Oldham"],
     "title": "I See a Darkness",
     "year": 1999,
     "label": "Palace",
@@ -1105,7 +1105,7 @@
   },
   {
     "artist": "Pavement",
-    "featuring": [],
+    "performers": [],
     "title": "Crooked Rain, Crooked Rain",
     "year": 1994,
     "label": "Matador",
@@ -1117,7 +1117,7 @@
   },
   {
     "artist": "DJ Shadow",
-    "featuring": [],
+    "performers": [],
     "title": "Endtroducing.....",
     "year": 1996,
     "label": "Mo'Wax",
@@ -1129,7 +1129,7 @@
   },
   {
     "artist": "Nirvana",
-    "featuring": [],
+    "performers": [],
     "title": "Nevermind",
     "year": 1991,
     "label": "DGC",
@@ -1141,7 +1141,7 @@
   },
   {
     "artist": "Pavement",
-    "featuring": [],
+    "performers": [],
     "title": "Slanted & Enchanted",
     "year": 1992,
     "label": "Matador",
@@ -1153,7 +1153,7 @@
   },
   {
     "artist": "Neutral Milk Hotel",
-    "featuring": [],
+    "performers": [],
     "title": "In the Aeroplane Over the Sea",
     "year": 1998,
     "label": "Merge",
@@ -1165,7 +1165,7 @@
   },
   {
     "artist": "The Flaming Lips",
-    "featuring": [],
+    "performers": [],
     "title": "The Soft Bulletin",
     "year": 1999,
     "label": "Warner Bros",
@@ -1177,7 +1177,7 @@
   },
   {
     "artist": "My Bloody Valentine",
-    "featuring": [],
+    "performers": [],
     "title": "Loveless",
     "year": 1991,
     "label": "Creation",
@@ -1189,7 +1189,7 @@
   },
   {
     "artist": "Radiohead",
-    "featuring": [],
+    "performers": [],
     "title": "OK Computer",
     "year": 1997,
     "label": "Capitol",
@@ -1201,355 +1201,355 @@
   },
   {
     "artist": "Tori Amos",
-    "featuring": [],
+    "performers": [],
     "title": "Little Earthquakes",
     "year": 1992,
     "label": "Atlantic",
     "genre": "other",
-    "cover": "",
+    "cover": "little-earthquakes.jpg",
     "1999": 8,
     "2003": null,
     "2022": 124
   },
   {
     "artist": "Sunny Day Real Estate",
-    "featuring": [],
+    "performers": [],
     "title": "How It Feels to Be Something On",
     "year": 1998,
     "label": "Sub Pop",
     "genre": "rock",
-    "cover": "",
+    "cover": "how-it-feels-to-be-something-on.jpg",
     "1999": 15,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Walt Mink",
-    "featuring": [],
+    "performers": [],
     "title": "El Producto",
     "year": 1996,
     "label": "Atlantic",
     "genre": "rock",
-    "cover": "",
+    "cover": "el-producto.jpg",
     "1999": 17,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Beck",
-    "featuring": [],
+    "performers": [],
     "title": "Mellow Gold",
     "year": 1994,
     "label": "DGC",
     "genre": "rock",
-    "cover": "",
+    "cover": "mellow-gold.jpg",
     "1999": 21,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Fugazi",
-    "featuring": [],
+    "performers": [],
     "title": "In on the Kill Taker",
     "year": 1993,
     "label": "Dischord",
     "genre": "rock",
-    "cover": "",
+    "cover": "in-on-the-kill-taker.jpg",
     "1999": 24,
     "2003": null,
     "2022": null
   },
   {
     "artist": "They Might Be Giants",
-    "featuring": [],
+    "performers": [],
     "title": "Flood",
     "year": 1990,
     "label": "Elektra",
     "genre": "rock",
-    "cover": "",
+    "cover": "flood.jpg",
     "1999": 25,
     "2003": null,
     "2022": null
   },
   {
     "artist": "The Wrens",
-    "featuring": [],
+    "performers": [],
     "title": "Secaucus",
     "year": 1996,
     "label": "Grass",
     "genre": "rock",
-    "cover": "",
+    "cover": "secaucus.png",
     "1999": 28,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Shuder to Think",
-    "featuring": [],
+    "performers": [],
     "title": "Pony Express Record",
     "year": 1994,
     "label": "Epic",
     "genre": "rock",
-    "cover": "",
+    "cover": "pony-express-record.jpg",
     "1999": 29,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Archers of Loaf",
-    "featuring": [],
+    "performers": [],
     "title": "Icky Mettle",
     "year": 1993,
     "label": "Alias",
     "genre": "rock",
-    "cover": "",
+    "cover": "icky-mettle.jpg",
     "1999": 32,
     "2003": null,
     "2022": null
   },
   {
     "artist": "American Music Club",
-    "featuring": [],
+    "performers": [],
     "title": "Everclear",
     "year": 1991,
     "label": "Alias",
     "genre": "rock",
-    "cover": "",
+    "cover": "everclear.jpg",
     "1999": 36,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Chavez",
-    "featuring": [],
+    "performers": [],
     "title": "Ride the Fader",
     "year": 1996,
     "label": "Matador",
     "genre": "rock",
-    "cover": "",
+    "cover": "ride-the-fader.jpg",
     "1999": 38,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Kristin Hersh",
-    "featuring": [],
+    "performers": [],
     "title": "Hips and Makers",
     "year": 1994,
     "label": "4AD",
     "genre": "rock",
-    "cover": "",
+    "cover": "hips-and-makers.jpg",
     "1999": 40,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Built to Spill",
-    "featuring": ["Scott Plouf"],
+    "performers": ["Scott Plouf"],
     "title": "Keep it like a Secret",
     "year": 1999,
     "label": "Up",
     "genre": "rock",
-    "cover": "",
+    "cover": "keep-it-like-a-secret.jpg",
     "1999": 41,
     "2003": null,
     "2022": 101
   },
   {
     "artist": "Franck Black",
-    "featuring": [],
+    "performers": [],
     "title": "Frank Black",
     "year": 1993,
     "label": "4AD",
     "genre": "rock",
-    "cover": "",
+    "cover": "frank-black.jpg",
     "1999": 43,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Sebadoh",
-    "featuring": [],
+    "performers": [],
     "title": "Bakesale",
     "year": 1994,
     "label": "Sub Pop",
     "genre": "rock",
-    "cover": "",
+    "cover": "bakesale.jpg",
     "1999": 44,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Amon Tobin",
-    "featuring": [],
+    "performers": [],
     "title": "Bricolage",
     "year": 1997,
     "label": "Ninja Tune",
     "genre": "electronic",
-    "cover": "",
+    "cover": "bricolage.jpg",
     "1999": 47,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Heatmiser",
-    "featuring": ["Elliott Smith"],
+    "performers": ["Elliott Smith"],
     "title": "Mic City Sons",
     "year": 1996,
     "label": "Caroline",
     "genre": "rock",
-    "cover": "",
+    "cover": "mic-city-sons.jpg",
     "1999": 48,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Low",
-    "featuring": [],
+    "performers": [],
     "title": "I Could Live in Hope",
     "year": 1994,
     "label": "Vernon Yard",
     "genre": "rock",
-    "cover": "",
+    "cover": "i-could-live-in-hope.jpg",
     "1999": 49,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Laika",
-    "featuring": [],
+    "performers": [],
     "title": "Silver Apples of the Moon",
     "year": 1994,
     "label": "Too Pure",
     "genre": "rock",
-    "cover": "",
+    "cover": "silver-apples-of-the-moon.jpg",
     "1999": 51,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Fugazi",
-    "featuring": [],
+    "performers": [],
     "title": "Repeater + 3 Songs",
     "year": 1990,
     "label": "Dischord",
     "genre": "rock",
-    "cover": "",
+    "cover": "repeater-3-songs.jpg",
     "1999": 52,
     "2003": null,
     "2022": 145
   },
   {
     "artist": "His Name Is Alive",
-    "featuring": [],
+    "performers": [],
     "title": "Mouth by Mouth",
     "year": 1993,
     "label": "4AD",
     "genre": "rock",
-    "cover": "",
+    "cover": "mouth-by-mouth.jpg",
     "1999": 53,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Spoon",
-    "featuring": [],
+    "performers": [],
     "title": "A Series of Sneaks",
     "year": 1998,
     "label": "Elektra",
     "genre": "rock",
-    "cover": "",
+    "cover": "a-series-of-sneaks.jpg",
     "1999": 54,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Tom Waits",
-    "featuring": [],
+    "performers": [],
     "title": "Mule Variations",
     "year": 1999,
     "label": "ANTI-",
     "genre": "rock",
-    "cover": "",
+    "cover": "mule-variations.jpg",
     "1999": 57,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Red House Painters",
-    "featuring": [],
+    "performers": [],
     "title": "Ocean Beach",
     "year": 1995,
     "label": "4AD",
     "genre": "rock",
-    "cover": "",
+    "cover": "ocean-beach.jpg",
     "1999": 58,
     "2003": null,
     "2022": null
   },
   {
     "artist": "12 Rods",
-    "featuring": [],
+    "performers": [],
     "title": "Split Personalities",
     "year": 1998,
     "label": "V2",
     "genre": "rock",
-    "cover": "",
+    "cover": "split-personalities.jpg",
     "1999": 59,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Portishead",
-    "featuring": [],
+    "performers": [],
     "title": "Portishead",
     "year": 1997,
     "label": "Go! Discs",
     "genre": "electronic",
-    "cover": "",
+    "cover": "portishead.jpg",
     "1999": 60,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Jawbreaker",
-    "featuring": [],
+    "performers": [],
     "title": "24 Hour Revenge Therapy",
     "year": 1994,
     "label": "Tupelo",
     "genre": "rock",
-    "cover": "",
+    "cover": "24-hour-revenge-therapy.jpg",
     "1999": 61,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Walt Mink",
-    "featuring": [],
+    "performers": [],
     "title": "Miss Happiness",
     "year": 1992,
     "label": "Caroline",
     "genre": "rock",
-    "cover": "",
+    "cover": "miss-happiness.jpg",
     "1999": 62,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Amon Tobin",
-    "featuring": [],
+    "performers": [],
     "title": "Permutation",
     "year": 1998,
     "label": "Ninja Tune",
     "genre": "electronic",
-    "cover": "",
+    "cover": "permutation.jpg",
     "1999": 63,
     "2003": null,
     "2022": null
   },
   {
     "artist": "Soul Coughing",
-    "featuring": [],
+    "performers": [],
     "title": "Ruby Vroom",
     "year": 1994,
     "label": "Warner Bros",
@@ -1561,7 +1561,7 @@
   },
   {
     "artist": "Stereolab",
-    "featuring": [],
+    "performers": [],
     "title": "Transient Random-Noise Bursts with Announcements",
     "year": 1993,
     "label": "Elektra",
@@ -1573,7 +1573,7 @@
   },
   {
     "artist": "Polvo",
-    "featuring": [],
+    "performers": [],
     "title": "Exploded Drawing",
     "year": 1996,
     "label": "Touch & Go",
@@ -1585,7 +1585,7 @@
   },
   {
     "artist": "The Magnetic Fields",
-    "featuring": ["Stephen Merritt"],
+    "performers": ["Stephen Merritt"],
     "title": "The Charm Of The Highway Strip",
     "year": 1994,
     "label": "Merge",
@@ -1597,7 +1597,7 @@
   },
   {
     "artist": "Blur",
-    "featuring": [],
+    "performers": [],
     "title": "The Great Escape",
     "year": 1995,
     "label": "Food",
@@ -1609,7 +1609,7 @@
   },
   {
     "artist": "Uncle Tupelo",
-    "featuring": [],
+    "performers": [],
     "title": "Anodyne",
     "year": 1993,
     "label": "Sire",
@@ -1621,7 +1621,7 @@
   },
   {
     "artist": "Belle & Sebastian",
-    "featuring": [],
+    "performers": [],
     "title": "Tigermilk",
     "year": 1996,
     "label": "Electric Honey",
@@ -1633,7 +1633,7 @@
   },
   {
     "artist": "The 6ths",
-    "featuring": ["Stephen Merritt"],
+    "performers": ["Stephen Merritt"],
     "title": "Wasps' Nests",
     "year": 1995,
     "label": "Factory Too",
@@ -1645,7 +1645,7 @@
   },
   {
     "artist": "Super Furry Animals",
-    "featuring": [],
+    "performers": [],
     "title": "Radiator",
     "year": 1997,
     "label": "Creation",
@@ -1657,7 +1657,7 @@
   },
   {
     "artist": "Sunny Day Real Estate",
-    "featuring": [],
+    "performers": [],
     "title": "Diary",
     "year": 1994,
     "label": "Sub Pop",
@@ -1669,7 +1669,7 @@
   },
   {
     "artist": "Sugar",
-    "featuring": [],
+    "performers": [],
     "title": "Copper Blue",
     "year": 1992,
     "label": "Creation",
@@ -1681,7 +1681,7 @@
   },
   {
     "artist": "Lilys",
-    "featuring": [],
+    "performers": [],
     "title": "Eccsame the Photon Band",
     "year": 1994,
     "label": "spinART",
@@ -1693,7 +1693,7 @@
   },
   {
     "artist": "Hum",
-    "featuring": [],
+    "performers": [],
     "title": "Downward Is Heavenward",
     "year": 1997,
     "label": "RCA",
@@ -1705,7 +1705,7 @@
   },
   {
     "artist": "Blur",
-    "featuring": [],
+    "performers": [],
     "title": "13",
     "year": 1999,
     "label": "Food",
@@ -1717,7 +1717,7 @@
   },
   {
     "artist": "Throwing Muses",
-    "featuring": ["Kristin Hersh"],
+    "performers": ["Kristin Hersh"],
     "title": "The Real Ramona",
     "year": 1991,
     "label": "4AD",
@@ -1729,7 +1729,7 @@
   },
   {
     "artist": "Superchunk",
-    "featuring": [],
+    "performers": [],
     "title": "No Pocky for Kitty",
     "year": 1991,
     "label": "Matador",
@@ -1741,7 +1741,7 @@
   },
   {
     "artist": "Morphine",
-    "featuring": [],
+    "performers": [],
     "title": "Cure for Pain",
     "year": 1993,
     "label": "Rykodisc",
@@ -1753,7 +1753,7 @@
   },
   {
     "artist": "Tortoise",
-    "featuring": [],
+    "performers": [],
     "title": "Millions Now Living Will Never Die",
     "year": 1996,
     "label": "Thrill Jockey",
@@ -1765,7 +1765,7 @@
   },
   {
     "artist": "The Spinanes",
-    "featuring": ["Scott Plouf"],
+    "performers": ["Scott Plouf"],
     "title": "Manos",
     "year": 1993,
     "label": "Sub Pop",
@@ -1777,7 +1777,7 @@
   },
   {
     "artist": "Stereolab",
-    "featuring": [],
+    "performers": [],
     "title": "Dots & Loops",
     "year": 1997,
     "label": "Elektra",
@@ -1789,7 +1789,7 @@
   },
   {
     "artist": "Sonic Youth",
-    "featuring": [],
+    "performers": [],
     "title": "Dirty",
     "year": 1992,
     "label": "DGC",
@@ -1801,7 +1801,7 @@
   },
   {
     "artist": "Pale Saints",
-    "featuring": [],
+    "performers": [],
     "title": "The Comforts of Madness",
     "year": 1990,
     "label": "4AD",
@@ -1813,7 +1813,7 @@
   },
   {
     "artist": "Underworld",
-    "featuring": [],
+    "performers": [],
     "title": "dubnobasswithmyheadman",
     "year": 1994,
     "label": "Junior Boy's Own",
@@ -1825,7 +1825,7 @@
   },
   {
     "artist": "Phish",
-    "featuring": [],
+    "performers": [],
     "title": "Billy Breathes",
     "year": 1996,
     "label": "Elektra",
@@ -1837,7 +1837,7 @@
   },
   {
     "artist": "MK Ultra",
-    "featuring": [],
+    "performers": [],
     "title": "The Dream is Over",
     "year": 1999,
     "label": "Artichoke",
@@ -1849,7 +1849,7 @@
   },
   {
     "artist": "Smart Went Crazy",
-    "featuring": [],
+    "performers": [],
     "title": "Con Art",
     "year": 1997,
     "label": "Dischord",
@@ -1861,7 +1861,7 @@
   },
   {
     "artist": "Salt-N-Pepa",
-    "featuring": [],
+    "performers": [],
     "title": "Very Necessary",
     "year": 1993,
     "label": "Next Plateau",
@@ -1873,7 +1873,7 @@
   },
   {
     "artist": "Bratmobile",
-    "featuring": [],
+    "performers": [],
     "title": "Pottymouth",
     "year": 1993,
     "label": "Kill Rock Stars",
@@ -1885,7 +1885,7 @@
   },
   {
     "artist": "Soundgarden",
-    "featuring": [],
+    "performers": [],
     "title": "Superunknown",
     "year": 1994,
     "label": "A&M",
@@ -1897,7 +1897,7 @@
   },
   {
     "artist": "Whitney Houston",
-    "featuring": [],
+    "performers": [],
     "title": "The Bodyguard",
     "year": 1992,
     "label": "Arista",
@@ -1909,7 +1909,7 @@
   },
   {
     "artist": "Iris DeMent",
-    "featuring": [],
+    "performers": [],
     "title": "Infamous Angel",
     "year": 1992,
     "label": "Philo",
@@ -1921,7 +1921,7 @@
   },
   {
     "artist": "Aimee Mann",
-    "featuring": [],
+    "performers": [],
     "title": "Whatever",
     "year": 1993,
     "label": "Imago",
@@ -1933,7 +1933,7 @@
   },
   {
     "artist": "Boyz II Men",
-    "featuring": [],
+    "performers": [],
     "title": "II",
     "year": 1994,
     "label": "Motown",
@@ -1945,7 +1945,7 @@
   },
   {
     "artist": "Sparklehorse",
-    "featuring": [],
+    "performers": [],
     "title": "Good Morning Spider",
     "year": 1998,
     "label": "Capitol",
@@ -1957,7 +1957,7 @@
   },
   {
     "artist": "Three 6 Mafia",
-    "featuring": [],
+    "performers": [],
     "title": "Mystic Stylez",
     "year": 1995,
     "label": "Prophet",
@@ -1969,7 +1969,7 @@
   },
   {
     "artist": "Toni Braxton",
-    "featuring": [],
+    "performers": [],
     "title": "Toni Braxton",
     "year": 1993,
     "label": "LaFace",
@@ -1981,7 +1981,7 @@
   },
   {
     "artist": "American Football",
-    "featuring": [],
+    "performers": [],
     "title": "American Football",
     "year": 1999,
     "label": "Polyvinyl",
@@ -1993,7 +1993,7 @@
   },
   {
     "artist": "Bone Thugs-N-Harmony",
-    "featuring": [],
+    "performers": [],
     "title": "E. 1999 Eternal",
     "year": 1995,
     "label": "Ruthless",
@@ -2005,7 +2005,7 @@
   },
   {
     "artist": "Depeche Mode",
-    "featuring": [],
+    "performers": [],
     "title": "Violator",
     "year": 1990,
     "label": "Mute",
@@ -2017,7 +2017,7 @@
   },
   {
     "artist": "Gillian Welch",
-    "featuring": [],
+    "performers": [],
     "title": "Revival",
     "year": 1996,
     "label": "Almo Sounds",
@@ -2029,7 +2029,7 @@
   },
   {
     "artist": "Jonathan Richman",
-    "featuring": [],
+    "performers": [],
     "title": "I, Jonathan",
     "year": 1992,
     "label": "Rounder",
@@ -2041,7 +2041,7 @@
   },
   {
     "artist": "Prefab Sprout",
-    "featuring": [],
+    "performers": [],
     "title": "Jordan: The Comeback",
     "year": 1990,
     "label": "Kitchenware",
@@ -2053,7 +2053,7 @@
   },
   {
     "artist": "Maxwell",
-    "featuring": [],
+    "performers": [],
     "title": "Maxwell’s Urban Hang Suite",
     "year": 1996,
     "label": "Columbia",
@@ -2065,7 +2065,7 @@
   },
   {
     "artist": "Tom Petty",
-    "featuring": [],
+    "performers": [],
     "title": "Wildflowers",
     "year": 1994,
     "label": "Warner Bros",
@@ -2077,7 +2077,7 @@
   },
   {
     "artist": "Drexciya",
-    "featuring": [],
+    "performers": [],
     "title": "Neptune’s Lair",
     "year": 1999,
     "label": "Tresor",
@@ -2089,7 +2089,7 @@
   },
   {
     "artist": "Sinéad O’Connor",
-    "featuring": [],
+    "performers": [],
     "title": "I Do Not Want What I Haven’t Got",
     "year": 1990,
     "label": "Chrysalis",
@@ -2101,7 +2101,7 @@
   },
   {
     "artist": "Ol’ Dirty Bastard",
-    "featuring": [],
+    "performers": [],
     "title": "Return to the 36 Chambers: The Dirty Version",
     "year": 1995,
     "label": "Elektra",
@@ -2113,7 +2113,7 @@
   },
   {
     "artist": "Roni Size / Reprazent",
-    "featuring": [],
+    "performers": [],
     "title": "New Forms",
     "year": 1997,
     "label": "Talking Loud",
@@ -2125,7 +2125,7 @@
   },
   {
     "artist": "Garbage",
-    "featuring": [],
+    "performers": [],
     "title": "Garbage",
     "year": 1995,
     "label": "Almo Sounds",
@@ -2137,7 +2137,7 @@
   },
   {
     "artist": "Rage Against the Machine",
-    "featuring": [],
+    "performers": [],
     "title": "Rage Against the Machine",
     "year": 1992,
     "label": "Epic",
@@ -2149,7 +2149,7 @@
   },
   {
     "artist": "Sarah McLachlan",
-    "featuring": [],
+    "performers": [],
     "title": "Fumbling Towards Ecstasy",
     "year": 1993,
     "label": "Arista",
@@ -2161,7 +2161,7 @@
   },
   {
     "artist": "U2",
-    "featuring": [],
+    "performers": [],
     "title": "Achtung Baby",
     "year": 1991,
     "label": "Island",
@@ -2173,7 +2173,7 @@
   },
   {
     "artist": "The Notorious B.I.G.",
-    "featuring": [],
+    "performers": [],
     "title": "Life After Death",
     "year": 1991,
     "label": "Bad Boy",
@@ -2185,7 +2185,7 @@
   },
   {
     "artist": "Mazzy Star",
-    "featuring": [],
+    "performers": [],
     "title": "So Tonight That I Might See",
     "year": 1993,
     "label": "Capitol",
@@ -2197,7 +2197,7 @@
   },
   {
     "artist": "Arthur Russell",
-    "featuring": [],
+    "performers": [],
     "title": "Another Thought",
     "year": 1994,
     "label": "Point",
@@ -2209,7 +2209,7 @@
   },
   {
     "artist": "The Cranberries",
-    "featuring": [],
+    "performers": [],
     "title": "Everybody Else Is Doing It, So Why Can’t We?",
     "year": 1993,
     "label": "Island",
@@ -2221,7 +2221,7 @@
   },
   {
     "artist": "Selena",
-    "featuring": [],
+    "performers": [],
     "title": "Amor Prohibido",
     "year": 1994,
     "label": "EMI Latin",
@@ -2233,7 +2233,7 @@
   },
   {
     "artist": "Green Day",
-    "featuring": [],
+    "performers": [],
     "title": "Dookie",
     "year": 1994,
     "label": "Reprise",
@@ -2245,7 +2245,7 @@
   },
   {
     "artist": "Gang Starr",
-    "featuring": [],
+    "performers": [],
     "title": "Moment of Truth",
     "year": 1998,
     "label": "Virgin",
@@ -2257,7 +2257,7 @@
   },
   {
     "artist": "Elastica",
-    "featuring": [],
+    "performers": [],
     "title": "Elastica",
     "year": 1995,
     "label": "DGC",
@@ -2269,7 +2269,7 @@
   },
   {
     "artist": "Mary J. Blige",
-    "featuring": [],
+    "performers": [],
     "title": "What’s the 411?",
     "year": 1992,
     "label": "Uptown",
@@ -2281,7 +2281,7 @@
   },
   {
     "artist": "Smog",
-    "featuring": [],
+    "performers": [],
     "title": "Knock Knock",
     "year": 1999,
     "label": "Drag City",
@@ -2293,7 +2293,7 @@
   },
   {
     "artist": "Digable Planets",
-    "featuring": [],
+    "performers": [],
     "title": "Blowout Comb",
     "year": 1994,
     "label": "EMI",
@@ -2305,7 +2305,7 @@
   },
   {
     "artist": "Pet Shop Boys",
-    "featuring": [],
+    "performers": [],
     "title": "Behaviour",
     "year": 1990,
     "label": "Parlophone",
@@ -2317,7 +2317,7 @@
   },
   {
     "artist": "Jim O'Rourke",
-    "featuring": [],
+    "performers": [],
     "title": "Eureka",
     "year": 1999,
     "label": "Drag City",
@@ -2329,7 +2329,7 @@
   },
   {
     "artist": "Ice Cube",
-    "featuring": [],
+    "performers": [],
     "title": "Death Certificate",
     "year": 1991,
     "label": "Priority",
@@ -2341,7 +2341,7 @@
   },
   {
     "artist": "No Doubt",
-    "featuring": [],
+    "performers": [],
     "title": "Tragic Kingdom",
     "year": 1995,
     "label": "Interscope",
@@ -2353,7 +2353,7 @@
   },
   {
     "artist": "Autechre",
-    "featuring": [],
+    "performers": [],
     "title": "Amber",
     "year": 1994,
     "label": "Wax Trax!",
@@ -2365,7 +2365,7 @@
   },
   {
     "artist": "Ghostface Killah",
-    "featuring": [],
+    "performers": [],
     "title": "Ironman",
     "year": 1996,
     "label": "Epic Street",
@@ -2377,7 +2377,7 @@
   },
   {
     "artist": "Sonny Sharrock",
-    "featuring": [],
+    "performers": [],
     "title": "Ask the Ages",
     "year": 1991,
     "label": "Axiom",
@@ -2389,7 +2389,7 @@
   },
   {
     "artist": "DJ Screw",
-    "featuring": [],
+    "performers": [],
     "title": "3 ’N The Mornin’ Part Two",
     "year": 1996,
     "label": "BIGTIME",
@@ -2401,7 +2401,7 @@
   },
   {
     "artist": "Outkast",
-    "featuring": [],
+    "performers": [],
     "title": "ATLiens",
     "year": 1996,
     "label": "LaFace",
@@ -2413,7 +2413,7 @@
   },
   {
     "artist": "The Chicks",
-    "featuring": [],
+    "performers": [],
     "title": "Fly",
     "year": 1999,
     "label": "Monument",
@@ -2425,7 +2425,7 @@
   },
   {
     "artist": "Bikini Kill",
-    "featuring": ["Kathleen Hanna"],
+    "performers": ["Kathleen Hanna"],
     "title": "The C.D. Version of the First Two Records",
     "year": 1994,
     "label": "Kill Rock Stars",
@@ -2437,7 +2437,7 @@
   },
   {
     "artist": "DMX",
-    "featuring": [],
+    "performers": [],
     "title": "It’s Dark and Hell Is Hot",
     "year": 1998,
     "label": "Def Jam",
@@ -2449,7 +2449,7 @@
   },
   {
     "artist": "The Roots",
-    "featuring": [],
+    "performers": [],
     "title": "Things Fall Apart",
     "year": 1999,
     "label": "MCA",
@@ -2461,7 +2461,7 @@
   },
   {
     "artist": "The KLF",
-    "featuring": [],
+    "performers": [],
     "title": "Chill Out",
     "year": 1990,
     "label": "KLF Communications",
@@ -2473,7 +2473,7 @@
   },
   {
     "artist": "Missy Elliott",
-    "featuring": [],
+    "performers": [],
     "title": "Supa Dupa Fly",
     "year": 1997,
     "label": "Elektra",
@@ -2485,7 +2485,7 @@
   },
   {
     "artist": "Cat Power",
-    "featuring": [],
+    "performers": [],
     "title": "Moon Pix",
     "year": 1998,
     "label": "Matador",
@@ -2497,7 +2497,7 @@
   },
   {
     "artist": "MF DOOM",
-    "featuring": [],
+    "performers": [],
     "title": "Operation: Doomsday",
     "year": 1999,
     "label": "Fondle 'Em",
@@ -2509,7 +2509,7 @@
   },
   {
     "artist": "Juvenile",
-    "featuring": [],
+    "performers": [],
     "title": "400 Degreez",
     "year": 1998,
     "label": "Universal",
@@ -2521,7 +2521,7 @@
   },
   {
     "artist": "Mariah Carey",
-    "featuring": [],
+    "performers": [],
     "title": "Butterfly",
     "year": 1997,
     "label": "Columbia",
@@ -2533,7 +2533,7 @@
   },
   {
     "artist": "Jay Z",
-    "featuring": [],
+    "performers": [],
     "title": "Reasonable Doubt",
     "year": 1996,
     "label": "Priority",
@@ -2545,7 +2545,7 @@
   },
   {
     "artist": "Slowdive",
-    "featuring": [],
+    "performers": [],
     "title": "Souvlaki",
     "year": 1993,
     "label": "Creation",
@@ -2557,7 +2557,7 @@
   },
   {
     "artist": "Mobb Deep",
-    "featuring": [],
+    "performers": [],
     "title": "The Infamous",
     "year": 1995,
     "label": "Loud",
@@ -2569,7 +2569,7 @@
   },
   {
     "artist": "Madonna",
-    "featuring": [],
+    "performers": [],
     "title": "Ray of Light",
     "year": 1998,
     "label": "Maverick",
@@ -2581,7 +2581,7 @@
   },
   {
     "artist": "Scarface",
-    "featuring": [],
+    "performers": [],
     "title": "The Diary",
     "year": 1994,
     "label": "Rap-A-Lot",
@@ -2593,7 +2593,7 @@
   },
   {
     "artist": "Sade",
-    "featuring": [],
+    "performers": [],
     "title": "Love Deluxe",
     "year": 1992,
     "label": "Epic",
@@ -2605,7 +2605,7 @@
   },
   {
     "artist": "Alanis Morissette",
-    "featuring": [],
+    "performers": [],
     "title": "Jagged Little Pill",
     "year": 1995,
     "label": "Maverick",
@@ -2617,7 +2617,7 @@
   },
   {
     "artist": "Elliott Smith",
-    "featuring": [],
+    "performers": [],
     "title": "Elliott Smith",
     "year": 1995,
     "label": "Kill Rock Stars",
@@ -2629,7 +2629,7 @@
   },
   {
     "artist": "Fugees",
-    "featuring": ["Lauryn Hill"],
+    "performers": ["Lauryn Hill"],
     "title": "The Score",
     "year": 1996,
     "label": "Columbia",
@@ -2641,7 +2641,7 @@
   },
   {
     "artist": "Sleater-Kinney",
-    "featuring": [],
+    "performers": [],
     "title": "Dig Me Out",
     "year": 1997,
     "label": "Kill Rock Stars",
@@ -2653,7 +2653,7 @@
   },
   {
     "artist": "UGK",
-    "featuring": [],
+    "performers": [],
     "title": "Ridin’ Dirty",
     "year": 1996,
     "label": "Jive",
@@ -2665,7 +2665,7 @@
   },
   {
     "artist": "Destiny’s Child",
-    "featuring": [],
+    "performers": [],
     "title": "The Writing’s on the Wall",
     "year": 1999,
     "label": "Columbia",
@@ -2677,7 +2677,7 @@
   },
   {
     "artist": "Le Tigre",
-    "featuring": ["Kathleen Hanna"],
+    "performers": ["Kathleen Hanna"],
     "title": "Le Tigre",
     "year": 1999,
     "label": "Mr. Lady",
@@ -2689,7 +2689,7 @@
   },
   {
     "artist": "TLC",
-    "featuring": [],
+    "performers": [],
     "title": "CrazySexyCool",
     "year": 1994,
     "label": "LaFace",
@@ -2701,7 +2701,7 @@
   },
   {
     "artist": "Nine Inch Nails",
-    "featuring": [],
+    "performers": [],
     "title": "The Downward Spiral",
     "year": 1994,
     "label": "Interscope",
@@ -2713,7 +2713,7 @@
   },
   {
     "artist": "2Pac",
-    "featuring": [],
+    "performers": [],
     "title": "All Eyez on Me",
     "year": 1996,
     "label": "Death Row",
@@ -2725,7 +2725,7 @@
   },
   {
     "artist": "Janet Jackson",
-    "featuring": [],
+    "performers": [],
     "title": "janet.",
     "year": 1993,
     "label": "Virgin",
@@ -2737,7 +2737,7 @@
   },
   {
     "artist": "Fiona Apple",
-    "featuring": [],
+    "performers": [],
     "title": "Tidal",
     "year": 1996,
     "label": "Sony",
@@ -2749,7 +2749,7 @@
   },
   {
     "artist": "Lil' Kim",
-    "featuring": [],
+    "performers": [],
     "title": "Hard Core",
     "year": 1996,
     "label": "Atlantic",
@@ -2761,7 +2761,7 @@
   },
   {
     "artist": "Lucinda Williams",
-    "featuring": [],
+    "performers": [],
     "title": "Car Wheels on a Gravel Road",
     "year": 1998,
     "label": "Mercury",
@@ -2773,7 +2773,7 @@
   },
   {
     "artist": "Mos Def",
-    "featuring": [],
+    "performers": [],
     "title": "Black on Both Sides",
     "year": 1999,
     "label": "Rawkus",
@@ -2785,7 +2785,7 @@
   },
   {
     "artist": "Public Enemy",
-    "featuring": [],
+    "performers": [],
     "title": "Fear of a Black Planet",
     "year": 1990,
     "label": "Def Jam",
@@ -2797,7 +2797,7 @@
   },
   {
     "artist": "D’Angelo",
-    "featuring": [],
+    "performers": [],
     "title": "Brown Sugar",
     "year": 1995,
     "label": "EMI",
@@ -2809,7 +2809,7 @@
   },
   {
     "artist": "Fiona Apple",
-    "featuring": [],
+    "performers": [],
     "title": "When The Pawn...",
     "year": 1999,
     "label": "Epic",
@@ -2821,7 +2821,7 @@
   },
   {
     "artist": "Erykah Badu",
-    "featuring": [],
+    "performers": [],
     "title": "Baduizm",
     "year": 1997,
     "label": "Universal",
@@ -2833,7 +2833,7 @@
   },
   {
     "artist": "Aaliyah",
-    "featuring": [],
+    "performers": [],
     "title": "One in a Million",
     "year": 1996,
     "label": "Atlantic",
@@ -2845,7 +2845,7 @@
   },
   {
     "artist": "Hole",
-    "featuring": [],
+    "performers": [],
     "title": "Live Through This",
     "year": 1994,
     "label": "DGC",
@@ -2857,7 +2857,7 @@
   },
   {
     "artist": "Janet Jackson",
-    "featuring": [],
+    "performers": [],
     "title": "The Velvet Rope",
     "year": 1997,
     "label": "Virgin",
@@ -2869,7 +2869,7 @@
   },
   {
     "artist": "Lauryn Hill",
-    "featuring": [],
+    "performers": [],
     "title": "The Miseducation of Lauryn Hill",
     "year": 1998,
     "label": "Columbia",
