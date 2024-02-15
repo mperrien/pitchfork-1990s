@@ -17,6 +17,7 @@ const emptyAlbum: AlbumInfo = {
 	title: "",
 	year: NaN,
 	label: "",
+	genre: "",
 	cover: ""
 }
 
@@ -33,6 +34,7 @@ albums.forEach(album => {
 		title: album.title,
 		year: album.year,
 		label: album.label,
+		genre: album.genre,
 		cover: album.cover
 	}
 
@@ -149,11 +151,13 @@ albums.forEach(album => {
 				</div>
 				<div class="controls__section">
 					<h3>Highlight albums by genre</h3>
-					<p>Are some genres more present depending on the year the list was put together? The albums where volontarily dispatched in three wide genres. <strong>Rock</strong> is basically everything with a guitar, from Fugazi to My Bloody Valentine, including Elliott Smith and Blur. <strong>Electronic</strong> groups albums from Aphex Twin and Portishead, and everything in between. <strong>Hip-hop</strong> is rap and R'N'B from The Notorious B.I.G. to Janet Jackson.</p>
+					<p>Are some genres more present depending on the year the list was put together? The albums where volontarily dispatched in three wide genres. <strong>Rock</strong> is basically everything with a guitar, from Fugazi to Scott Walker, including Elliott Smith and Blur. <strong>Electronic</strong> groups albums from Aphex Twin and Portishead, and everything in between. <strong>Hip-hop</strong> is rap and R'N'B from The Notorious B.I.G. to Janet Jackson.</p>
 					<div class="controls__buttons">
-						<button class="button" role="button">Rock</button>
-						<button class="button" role="button">Electronic</button>
-						<button class="button" role="button">Hip-hop</button>
+						<button class="button" role="button" id="rock">Rock</button>
+						<button class="button" role="button" id="electronic">
+							Electronic
+						</button>
+						<button class="button" role="button" id="hiphop">Hip-hop</button>
 					</div>
 				</div>
 				<div class="controls__section">
@@ -227,8 +231,22 @@ albums.forEach(album => {
 			albums.forEach(al => {
 				al.classList.remove("album--revealRank");
 			});
+		});
+	});
+
+	const buttons = document.querySelectorAll(".button");
+	buttons.forEach(btn => {
+		btn.addEventListener("click", (event) => {
+			const control = event.target.id;
+			highlight(control);
+			// if (event.target.)
 		})
 	})
+
+	function highlight(target) {
+		console.log(target)
+	}
+
 </script>
 
 <style lang="scss">
