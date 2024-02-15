@@ -30,6 +30,20 @@ const lines2003: Path[] = [];
 
 const labels: { [key: string]: number } = {};
 
+const genres = {
+	"Rock": 0,
+	"Electronic": 0,
+	"Hip Hop": 0,
+	"R&B": 0,
+	"Other": 0,
+}
+
+const behaviour = {
+	"survivors": 0,
+	"orphans": 0,
+	"comebacks": 0
+}
+
 albums.forEach(album => {
 	const info: AlbumInfo = {
 		artist: album.artist,
@@ -60,6 +74,10 @@ albums.forEach(album => {
 			end_control: [275, 46 * album["2003"] - 31],
 			end: [675, 46 * album["2003"] - 31]
 		});
+
+		if (album["2022"]) {
+			behaviour.survivors++;
+		}
 	}
 
 	if (album["2003"] && album["2022"]) {
@@ -88,6 +106,16 @@ albums.forEach(album => {
 			end_control: [275, 46 * album["2022"] - 31],
 			end: [675, 46 * album["2022"] - 31]
 		});
+
+		behaviour.comebacks++;
+	}
+
+	if (
+		(album["1999"] && !album["2003"] && !album["2022"]) ||
+		(!album["1999"] && album["2003"] && !album["2022"]) ||
+		(!album["1999"] && !album["2003"] && album["2022"])
+	){
+		behaviour.orphans++;
 	}
 
 	// Update labels object
@@ -95,6 +123,18 @@ albums.forEach(album => {
 		labels[album.label]++;
 	} else {
 		labels[album.label] = 1;
+	}
+
+	if (album.genre === "rock") {
+		genres["Rock"]++;
+	} else if (album.genre === "electronic") {
+		genres["Electronic"]++;
+	} else if (album.genre === "hiphop") {
+		genres["Hip Hop"]++;
+	} else if (album.genre === "rnb") {
+		genres["R&B"]++;
+	} else if (album.genre === "other") {
+		genres["Other"]++;
 	}
 });
 
@@ -109,6 +149,25 @@ const labelsAsArray: [string, number][] = Object.entries(labels);
 labelsAsArray.sort((a, b) => {
 	return (b[1] - a[1]);
 });
+
+// Compute genres percentages
+let max = 0;
+Object.keys(genres).forEach(g => {
+	const genre = g as keyof typeof genres;
+	if (genres[genre] > max) {
+		max = genres[genre]
+	}
+});
+const genresAsArray: [string, number, number][] = []
+// Name, percentage, height
+Object.keys(genres).forEach(g => {
+	const genre = g as keyof typeof genres;
+	genresAsArray.push([
+		genre,
+		Math.round((genres[genre] / 240 * 100 + Number.EPSILON) * 10) / 10,
+		Math.round((genres[genre] * 100 / max + Number.EPSILON) * 10) / 10,
+	]);
+})
 ---
 
 <Layout title="A Pitchfork History of the 1990s">
@@ -159,6 +218,40 @@ labelsAsArray.sort((a, b) => {
 				</ol>
 			</div>
 		</div>
+		<section class="genres">
+			<div class="container">
+				<header>
+					<h2>Genres</h2>
+					<p>It's not only rock'n'roll (anymore)</p>
+				</header>
+				<dl>
+					{ genresAsArray.map(genre => (
+						<div>
+							<dt>
+								{genre[0]}
+							</dt>
+							<div
+								class="genres__bar"
+								style={`height: ${genre[2]}%`}
+							></div>
+							<dd>{genre[1]}%</dd>
+						</div>
+					))}
+				</dl>
+				<div class="genres__disclaimer">
+					<p>
+						The albums have been attributed one of the following labels:
+					</p>
+					<ul>
+						<li>Rock: basically anything that involves an electric guitar.</li>
+						<li>Electronic: self-explanatory.</li>
+						<li>Hip Hop: MCs and beatmakers. And the Beastie Boys...</li>
+						<li>R&B: contemporary R&B and neo-soul, mostly.</li>
+						<li>Other: folk, country, jazz, alternative pop...</li>
+					</ul>
+				</div>
+			</div>
+		</section>
 		<section class="labels">
 			<div class="container">
 				<header>
@@ -175,8 +268,54 @@ labelsAsArray.sort((a, b) => {
 					))}
 				</dl>
 				<p class="labels__disclaimer">
-					Number of different albums across the three lists. One album being ranked three times only counts for one.
+					Number of different albums across the three lists. One album being ranked three times only counts for one.<br />
+					Labels with less than 5 albums ranked are not displayed.
 				</p>
+			</div>
+		</section>
+		<section class="behaviour">
+			<div class="container">
+				<header>
+					<h2>Behaviour</h2>
+					<p>Dramatic ascents and surprising falls</p>
+				</header>
+				<dl>
+					<div>
+						<dt>Survivors</dt>
+						<div
+							class="behaviour__circle"
+							style={`height: ${behaviour.survivors / 240 * 100}%; width: ${behaviour.survivors / 240 * 100}%`}
+						></div>
+						<dd>{behaviour.survivors}</dd>
+					</div>
+					<div>
+						<dt>Orphans</dt>
+						<div
+							class="behaviour__circle"
+							style={`height: ${behaviour.orphans / 240 * 100}%; width: ${behaviour.orphans / 240 * 100}%`}
+						></div>
+						<dd>{behaviour.orphans}</dd>
+					</div>
+					<div>
+						<dt>Comebacks</dt>
+						<div
+							class="behaviour__circle"
+							style={`height: ${behaviour.comebacks / 240 * 100}%; width: ${behaviour.comebacks / 240 * 100}%`}
+						></div>
+						<dd>{behaviour.comebacks}</dd>
+					</div>
+				</dl>
+				<div class="behaviour__disclaimer">
+					<p>
+						Survivors are albums that appear in all three lists.
+					</p>
+					<p>
+						Orphans are albums that are present in only one of the three lists.
+					</p>
+					<p>
+						Comebacks are albums that are present in the 1999 and the 2022 lists, but not in the 2003 list.
+					</p>
+				</div>
 			</div>
 		</section>
 		<section class="controls">
@@ -224,7 +363,7 @@ labelsAsArray.sort((a, b) => {
 					<h2>Music journalists love ranking things.</h2>
 					<p class="subtitle">What's that‽</p>
 				</header>
-				<p>And Pitchfork writers certainly are not exception to the rule. Over the years, Pitchfork has published not one, not two, but three (3) definitive lists of the best albums of the 1990s.</p>
+				<p>And Pitchfork writers certainly are no exception to the rule. Over the years, Pitchfork has published not one, not two, but three (3) definitive lists of the best albums of the 1990s.</p>
 				<ul>
 					<li>
 						<a href="https://www.listal.com/list/pitchforks-top-100-albums-1990s-mrsaturn" target="_blank" rel="noopener noreferer">Top 100 Favorite Albums of the 1990s</a> was published in 1999 and is not available on Pitchfork anymore;
@@ -466,7 +605,9 @@ labelsAsArray.sort((a, b) => {
 	max-width: 90rem;
 }
 
+.genres,
 .labels,
+.behaviour,
 .controls,
 .about {
 	padding-top: 7.2rem;
@@ -496,8 +637,68 @@ labelsAsArray.sort((a, b) => {
 	}
 }
 
-.labels {
+.genres {
 	background-color: #f8f8f8;
+
+	dl {
+		display: flex;
+		justify-content: space-between;
+		margin-right: auto;
+		margin-left: auto;
+		width: 70rem;
+
+		> div {
+			position: relative;
+
+			display: flex;
+			flex-direction: column-reverse;
+			height: 50rem;
+		}
+
+		dt,
+		dd {
+			// position: relative;
+			// left: 50%;
+
+			width: 10rem;
+
+			text-align: center;
+
+			transform: translateX(-1.4rem);
+		}
+
+		dt {
+			// top: 100%;
+		}
+
+		dd {
+			margin-left: 0;
+		}
+
+		.genres__bar {
+			width: 7.2rem;
+
+			background-color: var(--pitchfork-red);
+			border-radius: .3rem;
+		}
+	}
+
+	&__disclaimer {
+		margin: 6rem auto 0;
+		max-width: 45rem;
+
+		opacity: .6;
+
+		font-size: 1.4rem;
+
+		ul {
+			padding-left: 1.6rem;
+		}
+	}
+}
+
+.labels {
+	background-color: #e1e2e3;
 
 	dl {
 		> div + div {
@@ -545,7 +746,73 @@ labelsAsArray.sort((a, b) => {
 	}
 }
 
+.behaviour {
+	background-color: #f8f8f8;
+
+	.container {
+		max-width: 120rem;
+	}
+
+	dl {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 3rem;
+
+		> div {
+			position: relative;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 1.6rem;
+			aspect-ratio: 1/1;
+
+			// outline: .1rem solid red;
+		}
+
+		.behaviour__circle {
+			// position: absolute;
+			// top: 50%;
+			// left: 50%;
+
+			background-color: var(--pitchfork-red);
+			border-radius: 50%;
+
+			// transform: translate(-50%, -50%);
+		}
+
+		dt {
+			font-family: "Lora", sans-serif;
+			font-optical-sizing: auto;
+			font-size: 2.4rem;
+			font-weight: 700;
+		}
+
+		dd {
+			margin-left: 0;
+		}
+	}
+
+	&__disclaimer {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 3rem;
+
+		p {
+			padding: 0 4.8rem;
+
+			opacity: .6;
+
+			font-size: 1.4rem;
+			text-align: center;
+		}
+	}
+}
+
 .controls {
+	display: none;
+
 	background-color: #f3f4f5;
 
 	.controls__section + .controls__section {
