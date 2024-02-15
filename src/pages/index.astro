@@ -10,7 +10,7 @@ import { sanitizeForDataAttribute } from "../utils/utils";
 
 import json from '../json/albums.json';
 
-const albums: Album[] = json;
+const albums: Album[] = json as Album[];
 
 const emptyAlbum: AlbumInfo = {
 	artist: "",
@@ -27,6 +27,8 @@ const list2022: AlbumInfo[] = Array(150).fill(emptyAlbum);
 
 const lines1999: Path[] = [];
 const lines2003: Path[] = [];
+
+const labels: { [key: string]: number } = {};
 
 albums.forEach(album => {
 	const info: AlbumInfo = {
@@ -87,7 +89,26 @@ albums.forEach(album => {
 			end: [675, 46 * album["2022"] - 31]
 		});
 	}
-})
+
+	// Update labels object
+	if (labels[album.label]) {
+		labels[album.label]++;
+	} else {
+		labels[album.label] = 1;
+	}
+});
+
+// Filter and order labels
+const keys: string[] = Object.keys(labels);
+keys.forEach(k => {
+	if (labels[k] < 5) {
+		delete labels[k];
+	}
+});
+const labelsAsArray: [string, number][] = Object.entries(labels);
+labelsAsArray.sort((a, b) => {
+	return (b[1] - a[1]);
+});
 ---
 
 <Layout title="A Pitchfork History of the 1990s">
@@ -138,6 +159,23 @@ albums.forEach(album => {
 				</ol>
 			</div>
 		</div>
+		<section class="labels">
+			<div class="container">
+				<header>
+					<h2>Labels</h2>
+					<p>Which labels have ranked the most albums?</p>
+				</header>
+				<dl>
+					{ labelsAsArray.map(label => (
+						<div>
+							<dt>{label[0]}</dt>
+							<div class="labels__bar" data-rows={label[1]}></div>
+							<dd>{label[1]}</dd>
+						</div>
+					))}
+				</dl>
+			</div>
+		</section>
 		<section class="controls">
 			<div class="container">
 				<header>
@@ -425,6 +463,7 @@ albums.forEach(album => {
 	max-width: 90rem;
 }
 
+.labels,
 .controls,
 .about {
 	padding-top: 7.2rem;
@@ -450,6 +489,98 @@ albums.forEach(album => {
 
 		&:hover {
 			text-decoration: underline;
+		}
+	}
+}
+
+.labels {
+	background-color: #f8f8f8;
+
+	dl {
+		> div + div {
+			margin-top: 1.6rem;
+		}
+		div {
+			display: grid;
+			grid-template-columns: 15rem repeat(12, 1fr) 3rem; // Highest is 12
+
+			dt {
+				grid-column: 1/2;
+				padding-right: 1.5rem;
+
+				text-align: right;
+
+				// grid
+
+				// background-image: linear-gradient(to right, transparent 0, transparent 15rem, var(--pitchfork-red) 15rem, var(--pitchfork-red) 100%);
+
+				// &::after {
+				// 	grid-column-start: 2;
+				// }
+
+				
+			}
+
+			dd {
+				margin-left: .6rem;
+			}
+
+			.labels__bar {
+				grid-column-start: 2;
+				height: 3.6rem;
+
+				background-color: var(--pitchfork-red);
+
+				@for $i from 2 through 12 {
+					&[data-rows="#{$i}"] {
+						grid-column-end: $i + 2;
+					}
+				}
+
+				// &[data-rows="2"] {
+				// 	grid-column-end: 4;
+				// }
+
+				// &[data-rows="3"] {
+				// 	grid-column-end: 5;
+				// }
+
+				// &[data-rows="4"] {
+				// 	grid-column-end: 6;
+				// }
+
+				// &[data-rows="5"] {
+				// 	grid-column-end: 7;
+				// }
+
+				// &[data-rows="6"] {
+				// 	grid-column-end: 8;
+				// }
+
+				// &[data-rows="7"] {
+				// 	grid-column-end: 9;
+				// }
+
+				// &[data-rows="8"] {
+				// 	grid-column-end: 10;
+				// }
+
+				// &[data-rows="9"] {
+				// 	grid-column-end: 11;
+				// }
+
+				// &[data-rows="10"] {
+				// 	grid-column-end: 12;
+				// }
+
+				// &[data-rows="11"] {
+				// 	grid-column-end: 13;
+				// }
+
+				// &[data-rows="12"] {
+				// 	grid-column-end: 13;
+				// }
+			}
 		}
 	}
 }
