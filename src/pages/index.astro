@@ -174,6 +174,9 @@ labelsAsArray.sort((a, b) => {
 						</div>
 					))}
 				</dl>
+				<p class="labels__disclaimer">
+					Number of different albums across the three lists. One album being ranked three times only counts for one.
+				</p>
 			</div>
 		</section>
 		<section class="controls">
@@ -502,23 +505,14 @@ labelsAsArray.sort((a, b) => {
 		}
 		div {
 			display: grid;
+			align-items: center;
 			grid-template-columns: 15rem repeat(12, 1fr) 3rem; // Highest is 12
 
 			dt {
 				grid-column: 1/2;
 				padding-right: 1.5rem;
 
-				text-align: right;
-
-				// grid
-
-				// background-image: linear-gradient(to right, transparent 0, transparent 15rem, var(--pitchfork-red) 15rem, var(--pitchfork-red) 100%);
-
-				// &::after {
-				// 	grid-column-start: 2;
-				// }
-
-				
+				text-align: right;				
 			}
 
 			dd {
@@ -530,58 +524,24 @@ labelsAsArray.sort((a, b) => {
 				height: 3.6rem;
 
 				background-color: var(--pitchfork-red);
+				border-radius: .3rem;
 
 				@for $i from 2 through 12 {
 					&[data-rows="#{$i}"] {
 						grid-column-end: $i + 2;
 					}
 				}
-
-				// &[data-rows="2"] {
-				// 	grid-column-end: 4;
-				// }
-
-				// &[data-rows="3"] {
-				// 	grid-column-end: 5;
-				// }
-
-				// &[data-rows="4"] {
-				// 	grid-column-end: 6;
-				// }
-
-				// &[data-rows="5"] {
-				// 	grid-column-end: 7;
-				// }
-
-				// &[data-rows="6"] {
-				// 	grid-column-end: 8;
-				// }
-
-				// &[data-rows="7"] {
-				// 	grid-column-end: 9;
-				// }
-
-				// &[data-rows="8"] {
-				// 	grid-column-end: 10;
-				// }
-
-				// &[data-rows="9"] {
-				// 	grid-column-end: 11;
-				// }
-
-				// &[data-rows="10"] {
-				// 	grid-column-end: 12;
-				// }
-
-				// &[data-rows="11"] {
-				// 	grid-column-end: 13;
-				// }
-
-				// &[data-rows="12"] {
-				// 	grid-column-end: 13;
-				// }
 			}
 		}
+	}
+
+	&__disclaimer {
+		margin-top: 6rem;
+
+		opacity: .6;
+
+		font-size: 1.4rem;
+		text-align: center;
 	}
 }
 
