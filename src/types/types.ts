@@ -4,7 +4,7 @@ export interface Album {
   title: string;
   year: number;
   label: string;
-  genre: "rock" | "electronic" | "hiphop" | "";
+  genre: "rock" | "electronic" | "hiphop" | "rnb" | "other" | "";
   cover: string;
   "1999": number | null;
   "2003": number | null;
@@ -16,7 +16,7 @@ export interface AlbumInfo {
   title: string;
   year: number;
   label: string;
-  genre: "rock" | "electronic" | "hiphop" | "";
+  genre: "rock" | "electronic" | "hiphop" | "rnb" | "other" | "";
   cover: string;
 }
 
