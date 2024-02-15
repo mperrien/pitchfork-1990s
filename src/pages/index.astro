@@ -181,6 +181,7 @@ Object.keys(genres).forEach(g => {
 		</header>
 		<div class="chart">
 			<div class="year year--1999">
+				<div class="year__year"><span>1999</span></div>
 				<ol class="list list--1999">
 					{list1999.map((album, index) => (
 						<li>
@@ -197,6 +198,7 @@ Object.keys(genres).forEach(g => {
 				</svg>
 			</div>
 			<div class="year year--2003">
+				<div class="year__year"><span>2003</span></div>
 				<ol class="list list--2003">
 					{list2003.map((album, index) => (
 						<li><AlbumCard album={album} index={index} /></li>
@@ -211,6 +213,7 @@ Object.keys(genres).forEach(g => {
 				</svg>
 			</div>
 			<div class="year year--2022">
+				<div class="year__year"><span>2022</span></div>
 				<ol class="list list--2022">
 					{list2022.map((album, index) => (
 						<li><AlbumCard album={album} index={index} reverseInfo={true} /></li>
@@ -501,10 +504,23 @@ Object.keys(genres).forEach(g => {
 		&--2022 {
 			grid-column: 6/7;
 		}
+
+		&__year {
+			display: flex;
+			justify-content: center;
+			padding-bottom: 2.4rem;
+
+			font-family: "Lora", sans-serif;
+			font-size: 2rem;
+			font-weight: 700;
+			text-align: center;
+
+		}
 	}
 
 	.lines {
 		// background-color: #e1e2e3;
+		padding-top: 5rem;
 
 		&--2003 {
 			grid-column: 3/4;
