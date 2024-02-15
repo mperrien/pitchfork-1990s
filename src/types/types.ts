@@ -1,6 +1,6 @@
 export interface Album {
   artist: string;
-  featuring: string[];
+  performers: string[];
   title: string;
   year: number;
   label: string;
