@@ -1005,7 +1005,7 @@
     "cover": "fear-of-a-black-planet.jpg",
     "1999": null,
     "2003": 17,
-    "2022": null
+    "2022": 27
   },
   {
     "artist": "The Dismemberment Plan",
@@ -1866,7 +1866,7 @@
     "year": 1993,
     "label": "Next Plateau",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "very-necessary.jpg",
     "1999": null,
     "2003": null,
     "2022": 150
@@ -1878,7 +1878,7 @@
     "year": 1993,
     "label": "Kill Rock Stars",
     "genre": "rock",
-    "cover": "",
+    "cover": "pottymouth.jpg",
     "1999": null,
     "2003": null,
     "2022": 149
@@ -1890,7 +1890,7 @@
     "year": 1994,
     "label": "A&M",
     "genre": "rock",
-    "cover": "",
+    "cover": "superunknown.jpg",
     "1999": null,
     "2003": null,
     "2022": 148
@@ -1902,7 +1902,7 @@
     "year": 1992,
     "label": "Arista",
     "genre": "rnb",
-    "cover": "",
+    "cover": "the-bodyguard.jpg",
     "1999": null,
     "2003": null,
     "2022": 147
@@ -1914,7 +1914,7 @@
     "year": 1992,
     "label": "Philo",
     "genre": "other",
-    "cover": "",
+    "cover": "infamous-angel.webp",
     "1999": null,
     "2003": null,
     "2022": 144
@@ -1926,7 +1926,7 @@
     "year": 1993,
     "label": "Imago",
     "genre": "other",
-    "cover": "",
+    "cover": "whatever.jpg",
     "1999": null,
     "2003": null,
     "2022": 143
@@ -1938,7 +1938,7 @@
     "year": 1994,
     "label": "Motown",
     "genre": "rnb",
-    "cover": "",
+    "cover": "ii.jpg",
     "1999": null,
     "2003": null,
     "2022": 142
@@ -1950,7 +1950,7 @@
     "year": 1998,
     "label": "Capitol",
     "genre": "rock",
-    "cover": "",
+    "cover": "good-morning-spider.jpg",
     "1999": null,
     "2003": null,
     "2022": 141
@@ -1962,7 +1962,7 @@
     "year": 1995,
     "label": "Prophet",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "mystic-stylez.jpg",
     "1999": null,
     "2003": null,
     "2022": 140
@@ -1974,7 +1974,7 @@
     "year": 1993,
     "label": "LaFace",
     "genre": "rnb",
-    "cover": "",
+    "cover": "toni-braxton.jpg",
     "1999": null,
     "2003": null,
     "2022": 139
@@ -1986,7 +1986,7 @@
     "year": 1999,
     "label": "Polyvinyl",
     "genre": "rock",
-    "cover": "",
+    "cover": "american-football.jpg",
     "1999": null,
     "2003": null,
     "2022": 138
@@ -1998,7 +1998,7 @@
     "year": 1995,
     "label": "Ruthless",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "e-1999-eternal.jpg",
     "1999": null,
     "2003": null,
     "2022": 137
@@ -2010,7 +2010,7 @@
     "year": 1990,
     "label": "Mute",
     "genre": "electronic",
-    "cover": "",
+    "cover": "violator.jpg",
     "1999": null,
     "2003": null,
     "2022": 136
@@ -2022,7 +2022,7 @@
     "year": 1996,
     "label": "Almo Sounds",
     "genre": "other",
-    "cover": "",
+    "cover": "revival.jpg",
     "1999": null,
     "2003": null,
     "2022": 134
@@ -2034,7 +2034,7 @@
     "year": 1992,
     "label": "Rounder",
     "genre": "rock",
-    "cover": "",
+    "cover": "i-jonathan.jpg",
     "1999": null,
     "2003": null,
     "2022": 133
@@ -2046,7 +2046,7 @@
     "year": 1990,
     "label": "Kitchenware",
     "genre": "rock",
-    "cover": "",
+    "cover": "jordan-the-comeback.jpg",
     "1999": null,
     "2003": null,
     "2022": 131
@@ -2058,7 +2058,7 @@
     "year": 1996,
     "label": "Columbia",
     "genre": "rnb",
-    "cover": "",
+    "cover": "maxwells-urban-hang-suite.jpg",
     "1999": null,
     "2003": null,
     "2022": 130
@@ -2070,7 +2070,7 @@
     "year": 1994,
     "label": "Warner Bros",
     "genre": "rock",
-    "cover": "",
+    "cover": "wildflowers.jpg",
     "1999": null,
     "2003": null,
     "2022": 129
@@ -2082,7 +2082,7 @@
     "year": 1999,
     "label": "Tresor",
     "genre": "electronic",
-    "cover": "",
+    "cover": "neptune-s-lair.jpg",
     "1999": null,
     "2003": null,
     "2022": 128
@@ -2094,7 +2094,7 @@
     "year": 1990,
     "label": "Chrysalis",
     "genre": "other",
-    "cover": "",
+    "cover": "i-do-not-want-what-i-havent-got.jpg",
     "1999": null,
     "2003": null,
     "2022": 127
@@ -2106,7 +2106,7 @@
     "year": 1995,
     "label": "Elektra",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "return-to-the-36-chambers-the-dirt-version.jpg",
     "1999": null,
     "2003": null,
     "2022": 126
@@ -2118,7 +2118,7 @@
     "year": 1997,
     "label": "Talking Loud",
     "genre": "electronic",
-    "cover": "",
+    "cover": "new-forms.jpg",
     "1999": null,
     "2003": null,
     "2022": 122
@@ -2130,7 +2130,7 @@
     "year": 1995,
     "label": "Almo Sounds",
     "genre": "rock",
-    "cover": "",
+    "cover": "garbage.jpg",
     "1999": null,
     "2003": null,
     "2022": 121
@@ -2142,7 +2142,7 @@
     "year": 1992,
     "label": "Epic",
     "genre": "rock",
-    "cover": "",
+    "cover": "rage-against-the-machine.jpg",
     "1999": null,
     "2003": null,
     "2022": 120
@@ -2154,7 +2154,7 @@
     "year": 1993,
     "label": "Arista",
     "genre": "rock",
-    "cover": "",
+    "cover": "fumbling-towards-ecstasy.webp",
     "1999": null,
     "2003": null,
     "2022": 119
@@ -2166,7 +2166,7 @@
     "year": 1991,
     "label": "Island",
     "genre": "rock",
-    "cover": "",
+    "cover": "achtung-baby.jpg",
     "1999": null,
     "2003": null,
     "2022": 118
@@ -2178,7 +2178,7 @@
     "year": 1991,
     "label": "Bad Boy",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "life-after-death.webp",
     "1999": null,
     "2003": null,
     "2022": 117
@@ -2190,7 +2190,7 @@
     "year": 1993,
     "label": "Capitol",
     "genre": "rock",
-    "cover": "",
+    "cover": "so-tonight-that-i-might-see.jpg",
     "1999": null,
     "2003": null,
     "2022": 116
@@ -2202,7 +2202,7 @@
     "year": 1994,
     "label": "Point",
     "genre": "other",
-    "cover": "",
+    "cover": "another-thought.webp",
     "1999": null,
     "2003": null,
     "2022": 115
@@ -2214,7 +2214,7 @@
     "year": 1993,
     "label": "Island",
     "genre": "rock",
-    "cover": "",
+    "cover": "everybody-else-is-doing-it-so-why-cant-we.webp",
     "1999": null,
     "2003": null,
     "2022": 113
@@ -2226,7 +2226,7 @@
     "year": 1994,
     "label": "EMI Latin",
     "genre": "other",
-    "cover": "",
+    "cover": "amor-prohibido.jpg",
     "1999": null,
     "2003": null,
     "2022": 112
@@ -2238,7 +2238,7 @@
     "year": 1994,
     "label": "Reprise",
     "genre": "rock",
-    "cover": "",
+    "cover": "dookie.jpg",
     "1999": null,
     "2003": null,
     "2022": 111
@@ -2250,7 +2250,7 @@
     "year": 1998,
     "label": "Virgin",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "moment-of-truth.jpg",
     "1999": null,
     "2003": null,
     "2022": 110
@@ -2262,7 +2262,7 @@
     "year": 1995,
     "label": "DGC",
     "genre": "rock",
-    "cover": "",
+    "cover": "elastica.jpg",
     "1999": null,
     "2003": null,
     "2022": 109
@@ -2274,7 +2274,7 @@
     "year": 1992,
     "label": "Uptown",
     "genre": "rnb",
-    "cover": "",
+    "cover": "what-s-the-411.jpg",
     "1999": null,
     "2003": null,
     "2022": 108
@@ -2286,7 +2286,7 @@
     "year": 1999,
     "label": "Drag City",
     "genre": "rock",
-    "cover": "",
+    "cover": "knock-knock.jpg",
     "1999": null,
     "2003": null,
     "2022": 107
@@ -2298,7 +2298,7 @@
     "year": 1994,
     "label": "EMI",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "blowout-comb.jpg",
     "1999": null,
     "2003": null,
     "2022": 105
@@ -2310,7 +2310,7 @@
     "year": 1990,
     "label": "Parlophone",
     "genre": "electronic",
-    "cover": "",
+    "cover": "behaviour.jpg",
     "1999": null,
     "2003": null,
     "2022": 104
@@ -2322,7 +2322,7 @@
     "year": 1999,
     "label": "Drag City",
     "genre": "rock",
-    "cover": "",
+    "cover": "eureka.jpg",
     "1999": null,
     "2003": null,
     "2022": 100
@@ -2334,7 +2334,7 @@
     "year": 1991,
     "label": "Priority",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "death-certificate.jpg",
     "1999": null,
     "2003": null,
     "2022": 95
@@ -2346,7 +2346,7 @@
     "year": 1995,
     "label": "Interscope",
     "genre": "rock",
-    "cover": "",
+    "cover": "tragic-kingdom.jpg",
     "1999": null,
     "2003": null,
     "2022": 94
@@ -2358,7 +2358,7 @@
     "year": 1994,
     "label": "Wax Trax!",
     "genre": "electronic",
-    "cover": "",
+    "cover": "amber.jpg",
     "1999": null,
     "2003": null,
     "2022": 92
@@ -2370,7 +2370,7 @@
     "year": 1996,
     "label": "Epic Street",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "ironman.jpg",
     "1999": null,
     "2003": null,
     "2022": 90
@@ -2382,7 +2382,7 @@
     "year": 1991,
     "label": "Axiom",
     "genre": "other",
-    "cover": "",
+    "cover": "ask-the-ages.jpg",
     "1999": null,
     "2003": null,
     "2022": 89
@@ -2394,7 +2394,7 @@
     "year": 1996,
     "label": "BIGTIME",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "3-n-the-mornin-part-two.jpg",
     "1999": null,
     "2003": null,
     "2022": 87
@@ -2406,7 +2406,7 @@
     "year": 1996,
     "label": "LaFace",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "atliens.jpg",
     "1999": null,
     "2003": null,
     "2022": 84
@@ -2418,7 +2418,7 @@
     "year": 1999,
     "label": "Monument",
     "genre": "other",
-    "cover": "",
+    "cover": "fly.jpg",
     "1999": null,
     "2003": null,
     "2022": 82
@@ -2430,7 +2430,7 @@
     "year": 1994,
     "label": "Kill Rock Stars",
     "genre": "rock",
-    "cover": "",
+    "cover": "the-cd-version-of-the-irst-two-records.png",
     "1999": null,
     "2003": null,
     "2022": 80
@@ -2442,7 +2442,7 @@
     "year": 1998,
     "label": "Def Jam",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "its-dark-and-hell-is-hot.jpg",
     "1999": null,
     "2003": null,
     "2022": 79
@@ -2454,7 +2454,7 @@
     "year": 1999,
     "label": "MCA",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "things-fall-apart.jpg",
     "1999": null,
     "2003": null,
     "2022": 77
@@ -2466,7 +2466,7 @@
     "year": 1990,
     "label": "KLF Communications",
     "genre": "electronic",
-    "cover": "",
+    "cover": "chill-out.jpg",
     "1999": null,
     "2003": null,
     "2022": 76
@@ -2478,7 +2478,7 @@
     "year": 1997,
     "label": "Elektra",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "supa-dupa-fly.jpg",
     "1999": null,
     "2003": null,
     "2022": 74
@@ -2490,7 +2490,7 @@
     "year": 1998,
     "label": "Matador",
     "genre": "rock",
-    "cover": "",
+    "cover": "moon-pix.jpg",
     "1999": null,
     "2003": null,
     "2022": 66
@@ -2502,7 +2502,7 @@
     "year": 1999,
     "label": "Fondle 'Em",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "operation-doomsday.jpg",
     "1999": null,
     "2003": null,
     "2022": 65
@@ -2514,7 +2514,7 @@
     "year": 1998,
     "label": "Universal",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "400-degreez.jpg",
     "1999": null,
     "2003": null,
     "2022": 62
@@ -2526,7 +2526,7 @@
     "year": 1997,
     "label": "Columbia",
     "genre": "rnb",
-    "cover": "",
+    "cover": "butterfly.jpg",
     "1999": null,
     "2003": null,
     "2022": 60
@@ -2538,7 +2538,7 @@
     "year": 1996,
     "label": "Priority",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "reasonable-doubt.jpg",
     "1999": null,
     "2003": null,
     "2022": 59
@@ -2550,7 +2550,7 @@
     "year": 1993,
     "label": "Creation",
     "genre": "rock",
-    "cover": "",
+    "cover": "souvlaki.jpg",
     "1999": null,
     "2003": null,
     "2022": 58
@@ -2562,7 +2562,7 @@
     "year": 1995,
     "label": "Loud",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "the-infamous.jpg",
     "1999": null,
     "2003": null,
     "2022": 57
@@ -2574,7 +2574,7 @@
     "year": 1998,
     "label": "Maverick",
     "genre": "electronic",
-    "cover": "",
+    "cover": "ray-of-light.jpg",
     "1999": null,
     "2003": null,
     "2022": 55
@@ -2586,7 +2586,7 @@
     "year": 1994,
     "label": "Rap-A-Lot",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "the-diary.jpg",
     "1999": null,
     "2003": null,
     "2022": 54
@@ -2598,7 +2598,7 @@
     "year": 1992,
     "label": "Epic",
     "genre": "rnb",
-    "cover": "",
+    "cover": "love-deluxe.jpg",
     "1999": null,
     "2003": null,
     "2022": 52
@@ -2610,7 +2610,7 @@
     "year": 1995,
     "label": "Maverick",
     "genre": "other",
-    "cover": "",
+    "cover": "jagged-little-pill.jpg",
     "1999": null,
     "2003": null,
     "2022": 51
@@ -2622,7 +2622,7 @@
     "year": 1995,
     "label": "Kill Rock Stars",
     "genre": "rock",
-    "cover": "",
+    "cover": "elliott-smith.jpg",
     "1999": null,
     "2003": null,
     "2022": 50
@@ -2634,7 +2634,7 @@
     "year": 1996,
     "label": "Columbia",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "the-score.jpg",
     "1999": null,
     "2003": null,
     "2022": 48
@@ -2646,7 +2646,7 @@
     "year": 1997,
     "label": "Kill Rock Stars",
     "genre": "rock",
-    "cover": "",
+    "cover": "dig-me-out.jpg",
     "1999": null,
     "2003": null,
     "2022": 47
@@ -2658,7 +2658,7 @@
     "year": 1996,
     "label": "Jive",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "ridin-dirty.jpg",
     "1999": null,
     "2003": null,
     "2022": 46
@@ -2670,7 +2670,7 @@
     "year": 1999,
     "label": "Columbia",
     "genre": "rnb",
-    "cover": "",
+    "cover": "the-writings-on-the-wall.jpg",
     "1999": null,
     "2003": null,
     "2022": 45
@@ -2682,7 +2682,7 @@
     "year": 1999,
     "label": "Mr. Lady",
     "genre": "rock",
-    "cover": "",
+    "cover": "le-tigre.jpg",
     "1999": null,
     "2003": null,
     "2022": 43
@@ -2694,7 +2694,7 @@
     "year": 1994,
     "label": "LaFace",
     "genre": "rnb",
-    "cover": "",
+    "cover": "crazysexycool.jpg",
     "1999": null,
     "2003": null,
     "2022": 42
@@ -2706,7 +2706,7 @@
     "year": 1994,
     "label": "Interscope",
     "genre": "rock",
-    "cover": "",
+    "cover": "the-downward-spiral.jpg",
     "1999": null,
     "2003": null,
     "2022": 40
@@ -2718,7 +2718,7 @@
     "year": 1996,
     "label": "Death Row",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "all-eyez-on-me.jpg",
     "1999": null,
     "2003": null,
     "2022": 39
@@ -2730,7 +2730,7 @@
     "year": 1993,
     "label": "Virgin",
     "genre": "rnb",
-    "cover": "",
+    "cover": "janet.jpg",
     "1999": null,
     "2003": null,
     "2022": 38
@@ -2742,7 +2742,7 @@
     "year": 1996,
     "label": "Sony",
     "genre": "other",
-    "cover": "",
+    "cover": "tidal.jpg",
     "1999": null,
     "2003": null,
     "2022": 37
@@ -2754,7 +2754,7 @@
     "year": 1996,
     "label": "Atlantic",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "hard-core.jpg",
     "1999": null,
     "2003": null,
     "2022": 36
@@ -2766,7 +2766,7 @@
     "year": 1998,
     "label": "Mercury",
     "genre": "other",
-    "cover": "",
+    "cover": "car-wheels-on-a-gravel-road.jpg",
     "1999": null,
     "2003": null,
     "2022": 32
@@ -2778,22 +2778,10 @@
     "year": 1999,
     "label": "Rawkus",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "black-on-both-sides.jpg",
     "1999": null,
     "2003": null,
     "2022": 30
-  },
-  {
-    "artist": "Public Enemy",
-    "performers": [],
-    "title": "Fear of a Black Planet",
-    "year": 1990,
-    "label": "Def Jam",
-    "genre": "hiphop",
-    "cover": "",
-    "1999": null,
-    "2003": null,
-    "2022": 27
   },
   {
     "artist": "D’Angelo",
@@ -2802,7 +2790,7 @@
     "year": 1995,
     "label": "EMI",
     "genre": "rnb",
-    "cover": "",
+    "cover": "brown-sugar.jpg",
     "1999": null,
     "2003": null,
     "2022": 20
@@ -2814,7 +2802,7 @@
     "year": 1999,
     "label": "Epic",
     "genre": "other",
-    "cover": "",
+    "cover": "when-the-pawn.jpg",
     "1999": null,
     "2003": null,
     "2022": 19
@@ -2826,7 +2814,7 @@
     "year": 1997,
     "label": "Universal",
     "genre": "rnb",
-    "cover": "",
+    "cover": "baduizm.jpg",
     "1999": null,
     "2003": null,
     "2022": 17
@@ -2838,7 +2826,7 @@
     "year": 1996,
     "label": "Atlantic",
     "genre": "rnb",
-    "cover": "",
+    "cover": "one-in-a-million.jpg",
     "1999": null,
     "2003": null,
     "2022": 15
@@ -2850,7 +2838,7 @@
     "year": 1994,
     "label": "DGC",
     "genre": "rock",
-    "cover": "",
+    "cover": "live-through-this.jpg",
     "1999": null,
     "2003": null,
     "2022": 8
@@ -2862,7 +2850,7 @@
     "year": 1997,
     "label": "Virgin",
     "genre": "rnb",
-    "cover": "",
+    "cover": "the-velvet-rope.jpg",
     "1999": null,
     "2003": null,
     "2022": 7
@@ -2874,7 +2862,7 @@
     "year": 1998,
     "label": "Columbia",
     "genre": "hiphop",
-    "cover": "",
+    "cover": "the-miseducation-of-lauryn-hill.jpg",
     "1999": null,
     "2003": null,
     "2022": 2

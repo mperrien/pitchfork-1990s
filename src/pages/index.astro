@@ -164,7 +164,7 @@ Object.keys(genres).forEach(g => {
 	const genre = g as keyof typeof genres;
 	genresAsArray.push([
 		genre,
-		Math.round((genres[genre] / 240 * 100 + Number.EPSILON) * 10) / 10,
+		Math.round((genres[genre] / 239 * 100 + Number.EPSILON) * 10) / 10,
 		Math.round((genres[genre] * 100 / max + Number.EPSILON) * 10) / 10,
 	]);
 })
@@ -287,7 +287,7 @@ Object.keys(genres).forEach(g => {
 						<dt>Survivors</dt>
 						<div
 							class="behaviour__circle"
-							style={`height: ${behaviour.survivors / 240 * 100}%; width: ${behaviour.survivors / 240 * 100}%`}
+							style={`height: ${behaviour.survivors / 239 * 100}%; width: ${behaviour.survivors / 239 * 100}%`}
 						></div>
 						<dd>{behaviour.survivors}</dd>
 					</div>
@@ -295,7 +295,7 @@ Object.keys(genres).forEach(g => {
 						<dt>Orphans</dt>
 						<div
 							class="behaviour__circle"
-							style={`height: ${behaviour.orphans / 240 * 100}%; width: ${behaviour.orphans / 240 * 100}%`}
+							style={`height: ${behaviour.orphans / 239 * 100}%; width: ${behaviour.orphans / 239 * 100}%`}
 						></div>
 						<dd>{behaviour.orphans}</dd>
 					</div>
@@ -303,7 +303,7 @@ Object.keys(genres).forEach(g => {
 						<dt>Comebacks</dt>
 						<div
 							class="behaviour__circle"
-							style={`height: ${behaviour.comebacks / 240 * 100}%; width: ${behaviour.comebacks / 240 * 100}%`}
+							style={`height: ${behaviour.comebacks / 239 * 100}%; width: ${behaviour.comebacks / 239 * 100}%`}
 						></div>
 						<dd>{behaviour.comebacks}</dd>
 					</div>
@@ -345,7 +345,7 @@ Object.keys(genres).forEach(g => {
 				</div>
 				<div class="controls__section">
 					<h3>Highlight albums by behaviour</h3>
-					<p>With 240 different albums present, the lists are quite unstable. I've sorted the albums into three categories. <strong>Survivors</strong> are albums that are present in the three lists. <strong>Orphans</strong> are albums that only made it to one list. <strong>Comebacks</strong> are albums that are present in the first and last lists, but not in the 2003 list.</p>
+					<p>With 239 different albums present, the lists are quite unstable. I've sorted the albums into three categories. <strong>Survivors</strong> are albums that are present in the three lists. <strong>Orphans</strong> are albums that only made it to one list. <strong>Comebacks</strong> are albums that are present in the first and last lists, but not in the 2003 list.</p>
 					<div class="controls__buttons">
 						<button class="button" role="button" id="survivors">
 							Survivors
@@ -486,7 +486,7 @@ Object.keys(genres).forEach(g => {
 		left: 0;
 
 		display: block;
-		height: 10rem;
+		height: 6rem;
 		width: 100%;
 
 		background-image: linear-gradient(to top, white 0%, white 10%, transparent 100%);
