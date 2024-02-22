@@ -20,6 +20,21 @@ export interface AlbumInfo {
   cover: string;
 }
 
+export interface Year {
+  "Rock": number;
+	"Electronic": number;
+	"Hip Hop": number;
+	"R&B": number;
+	"Other": number;
+}
+
+export interface GenresData {
+  "1999": Year;
+  "2003": Year;
+  "2022": Year;
+  "total": Year;
+}
+
 export interface Path {
   sanitized_title: string;
   start: [number, number];

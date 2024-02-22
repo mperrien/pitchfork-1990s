@@ -1,10 +1,11 @@
 ---
 import { Icon } from "astro-icon/components";
 
-import Layout from '../layouts/Layout.astro';
-import AlbumCard from '../components/AlbumCard.astro';
+import Layout from "../layouts/Layout.astro";
+import AlbumCard from "../components/AlbumCard.astro";
+import GenreCharts from "../components/GenreCharts.vue";
 
-import type { Album, AlbumInfo, Path } from "../types/types";
+import type { Album, AlbumInfo, Year, GenresData, Path } from "../types/types";
 
 import { sanitizeForDataAttribute } from "../utils/utils";
 
@@ -30,12 +31,35 @@ const lines2003: Path[] = [];
 
 const labels: { [key: string]: number } = {};
 
-const genres = {
-	"Rock": 0,
-	"Electronic": 0,
-	"Hip Hop": 0,
-	"R&B": 0,
-	"Other": 0,
+const genres: GenresData = {
+	"1999": {
+		"Rock": 0,
+		"Electronic": 0,
+		"Hip Hop": 0,
+		"R&B": 0,
+		"Other": 0,
+	},
+	"2003": {
+		"Rock": 0,
+		"Electronic": 0,
+		"Hip Hop": 0,
+		"R&B": 0,
+		"Other": 0,
+	},
+	"2022": {
+		"Rock": 0,
+		"Electronic": 0,
+		"Hip Hop": 0,
+		"R&B": 0,
+		"Other": 0,
+	},
+	total: {
+		"Rock": 0,
+		"Electronic": 0,
+		"Hip Hop": 0,
+		"R&B": 0,
+		"Other": 0,
+	},
 }
 
 const behaviour = {
@@ -125,16 +149,62 @@ albums.forEach(album => {
 		labels[album.label] = 1;
 	}
 
+	// Set genres data
 	if (album.genre === "rock") {
-		genres["Rock"]++;
+		genres.total["Rock"]++;
+		if (album[1999]) {
+			genres[1999].Rock++;
+		}
+		if (album[2003]) {
+			genres[2003].Rock++;
+		}
+		if (album[2022]) {
+			genres[2022].Rock++;
+		}
 	} else if (album.genre === "electronic") {
-		genres["Electronic"]++;
+		genres.total["Electronic"]++;
+		if (album[1999]) {
+			genres[1999].Electronic++;
+		}
+		if (album[2003]) {
+			genres[2003].Electronic++;
+		}
+		if (album[2022]) {
+			genres[2022].Electronic++;
+		}
 	} else if (album.genre === "hiphop") {
-		genres["Hip Hop"]++;
+		genres.total["Hip Hop"]++;
+		if (album[1999]) {
+			genres[1999]["Hip Hop"]++;
+		}
+		if (album[2003]) {
+			genres[2003]["Hip Hop"]++;
+		}
+		if (album[2022]) {
+			genres[2022]["Hip Hop"]++;
+		}
 	} else if (album.genre === "rnb") {
-		genres["R&B"]++;
+		genres.total["R&B"]++;
+		if (album[1999]) {
+			genres[1999]["R&B"]++;
+		}
+		if (album[2003]) {
+			genres[2003]["R&B"]++;
+		}
+		if (album[2022]) {
+			genres[2022]["R&B"]++;
+		}
 	} else if (album.genre === "other") {
-		genres["Other"]++;
+		genres.total["Other"]++;
+		if (album[1999]) {
+			genres[1999].Other++;
+		}
+		if (album[2003]) {
+			genres[2003].Other++;
+		}
+		if (album[2022]) {
+			genres[2022].Other++;
+		}
 	}
 });
 
@@ -149,25 +219,6 @@ const labelsAsArray: [string, number][] = Object.entries(labels);
 labelsAsArray.sort((a, b) => {
 	return (b[1] - a[1]);
 });
-
-// Compute genres percentages
-let max = 0;
-Object.keys(genres).forEach(g => {
-	const genre = g as keyof typeof genres;
-	if (genres[genre] > max) {
-		max = genres[genre]
-	}
-});
-const genresAsArray: [string, number, number][] = []
-// Name, percentage, height
-Object.keys(genres).forEach(g => {
-	const genre = g as keyof typeof genres;
-	genresAsArray.push([
-		genre,
-		Math.round((genres[genre] / 239 * 100 + Number.EPSILON) * 10) / 10,
-		Math.round((genres[genre] * 100 / max + Number.EPSILON) * 10) / 10,
-	]);
-})
 ---
 
 <Layout title="A Pitchfork History of the 1990s">
@@ -227,20 +278,7 @@ Object.keys(genres).forEach(g => {
 					<h2>Genres</h2>
 					<p>It's not only rock'n'roll (anymore)</p>
 				</header>
-				<dl>
-					{ genresAsArray.map(genre => (
-						<div>
-							<dt>
-								{genre[0]}
-							</dt>
-							<div
-								class="genres__bar"
-								style={`height: ${genre[2]}%`}
-							></div>
-							<dd>{genre[1]}%</dd>
-						</div>
-					))}
-				</dl>
+				<GenreCharts data={genres} client:load />
 				<div class="genres__disclaimer">
 					<p>
 						The albums have been attributed one of the following labels:
