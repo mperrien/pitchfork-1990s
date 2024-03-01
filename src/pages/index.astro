@@ -429,15 +429,15 @@ labelsAsArray.sort((a, b) => {
 	albums.forEach(album => {
 		album.addEventListener("mouseenter", (event) => {
 			const title = event.target.dataset.title;
-			lines.forEach(line => {
+			setTimeout(() => {
+				for (let line of lines) {
 				if (line.dataset.title === title) {
-					console.log("yes");
 					line.setAttribute("style", "opacity: 1;");	
 				} else {
-					console.log("no");
 					line.setAttribute("style", "opacity: 0.2;");
 				}
-			});
+			}
+			}, 400);
 
 			albums.forEach(al => {
 				if (al.dataset.title === title) {
@@ -447,9 +447,11 @@ labelsAsArray.sort((a, b) => {
 		});
 
 		album.addEventListener("mouseleave", (event) => {
-			lines.forEach(line => {
-				line.removeAttribute("style");
-			});
+			setTimeout(() => {
+				lines.forEach(line => {
+					line.removeAttribute("style");
+				});
+			}, 400);
 
 			albums.forEach(al => {
 				al.classList.remove("album--revealRank");
