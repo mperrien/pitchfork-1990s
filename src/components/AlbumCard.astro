@@ -35,7 +35,13 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 		<div class="album__meta">{album.year} &middot; {album.label}</div>
 	</div>
 	<div class="album__cover">
-		<Image src={covers[coverPath]()} alt="" widths={[240, 540]} />
+		<Image
+			src={covers[coverPath]()}
+			alt=""
+			widths={[60, 360]}
+			height="180"
+			width="180"
+		/>
 	</div>
 	<div class="album__rank">
 		<span class="screen-reader-text">Ranked </span>{index + 1}
@@ -105,7 +111,7 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 		img {
 			display: block;
 			height: 100%;
-			width: auto;
+			width: 100%;
 
 			object-fit: cover;
 		}

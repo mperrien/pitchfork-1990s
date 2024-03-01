@@ -431,8 +431,10 @@ labelsAsArray.sort((a, b) => {
 			const title = event.target.dataset.title;
 			lines.forEach(line => {
 				if (line.dataset.title === title) {
+					console.log("yes");
 					line.setAttribute("style", "opacity: 1;");	
 				} else {
+					console.log("no");
 					line.setAttribute("style", "opacity: 0.2;");
 				}
 			});
