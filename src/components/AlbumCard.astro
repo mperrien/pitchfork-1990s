@@ -117,7 +117,8 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 		}
 	}
 
-	&:hover {
+	&:hover,
+	&.isHighlighted {
 		z-index: 9;
 
 		transition: z-index 1s ease-in-out;
@@ -176,7 +177,7 @@ const classList = reverseInfo ? "album album--reverseInfo" : "album";
 		}
 	}
 
-	&--revealRank {
+	&.revealRank {
 		.album__rank {
 			opacity: 1;
 		}

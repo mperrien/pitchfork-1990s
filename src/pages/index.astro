@@ -241,7 +241,7 @@ labelsAsArray.sort((a, b) => {
 					))}
 				</ol>
 			</div>
-			<div class="lines lines-2003" id="lines-2003">
+			<div class="lines lines--2003" id="lines-2003">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
 					{ lines1999.map(line => (
 						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
@@ -256,7 +256,7 @@ labelsAsArray.sort((a, b) => {
 					))}
 				</ol>
 			</div>
-			<div class="lines lines-2022" id="lines-2022">
+			<div class="lines lines--2022" id="lines-2022">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
 					{ lines2003.map(line => (
 						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
@@ -426,38 +426,118 @@ labelsAsArray.sort((a, b) => {
 <script is:inline>
 	const albums = document.querySelectorAll("article.album");
 	const lines = document.querySelectorAll(".lines svg path");
+	let currentHighlightTitle = "";
+	let currentHighlightedElements = [];
 	albums.forEach(album => {
 		album.addEventListener("mouseenter", (event) => {
 			const title = event.target.dataset.title;
-			setTimeout(() => {
-				for (let line of lines) {
-				if (line.dataset.title === title) {
-					line.setAttribute("style", "opacity: 1;");	
-				} else {
-					line.setAttribute("style", "opacity: 0.2;");
-				}
+
+			if (currentHighlightTitle === "") {
+				setTimeout(() => {
+					for (let line of lines) {
+						if (line.dataset.title === title) {
+							line.setAttribute("style", "opacity: 1;");	
+						} else {
+							line.setAttribute("style", "opacity: 0.2;");
+						}
+					}
+				}, 400);
 			}
-			}, 400);
+
 
 			albums.forEach(al => {
 				if (al.dataset.title === title) {
-					al.classList.add("album--revealRank");
+					al.classList.add("revealRank");
 				}
 			});
 		});
 
 		album.addEventListener("mouseleave", (event) => {
-			setTimeout(() => {
+			if (currentHighlightTitle === "") {
+				setTimeout(() => {
+					lines.forEach(line => {
+						line.removeAttribute("style");
+					});
+				}, 400);
+
+				albums.forEach(al => {
+					al.classList.remove("revealRank");
+				});
+			}
+		});
+
+		album.addEventListener("click", function(event) {
+			const title = this.dataset.title;
+			if (currentHighlightTitle === "") {
+				// console.log("highlighting", title);
+				// currentHighlightTitle = title;
+				// currentHighlightedElements = Array.from(
+				// 	document.querySelectorAll(`.album[data-title='${title}']`)
+				// );
+				// for (let al of currentHighlightedElements) {
+				// 	al.classList.add("isHighlighted", "revealRank");
+				// }
+				// for (let line of lines) {
+				// 	if (line.dataset.title === title) {
+				// 		console.log(line);
+				// 		line.setAttribute("style", "opacity: 1;");	
+				// 	} else {
+				// 		line.setAttribute("style", "opacity: 0.2;");
+				// 	}
+				// }
+				highlightAlbum(title);
+			} else {
+				if (currentHighlightTitle !== title) {
+					// console.log("highlighting", title);
+					// currentHighlightTitle = title;
+					// currentHighlightedElements = Array.from(
+					// 	document.querySelectorAll(`.album[data-title='${title}']`)
+					// );
+					// for (let al of currentHighlightedElements) {
+					// 	al.classList.add("isHighlighted", "revealRank");
+					// }
+					// for (let line of lines) {
+					// 	if (line.dataset.title === title) {
+					// 		console.log(line);
+					// 		line.setAttribute("style", "opacity: 1;");	
+					// 	} else {
+					// 		line.setAttribute("style", "opacity: 0.2;");
+					// 	}
+					// }
+					highlightAlbum(title);
+				}
+				console.log("removing highlight");
+				currentHighlightTitle = "";
+				for (let al of currentHighlightedElements) {
+					al.classList.remove("isHighlighted", "revealRank");
+				}
+				currentHighlightedElements = [];
 				lines.forEach(line => {
 					line.removeAttribute("style");
 				});
-			}, 400);
+			}
 
-			albums.forEach(al => {
-				al.classList.remove("album--revealRank");
-			});
 		});
 	});
+
+	function highlightAlbum(title) {
+		console.log("highlighting", title);
+		currentHighlightTitle = title;
+		currentHighlightedElements = Array.from(
+			document.querySelectorAll(`.album[data-title='${title}']`)
+		);
+		for (let al of currentHighlightedElements) {
+			al.classList.add("isHighlighted", "revealRank");
+		}
+		for (let line of lines) {
+			if (line.dataset.title === title) {
+				// console.log(line);
+				line.setAttribute("style", "opacity: 1;");	
+			} else {
+				line.setAttribute("style", "opacity: 0.2;");
+			}
+		}
+	}
 
 	const buttons = document.querySelectorAll(".button");
 	buttons.forEach(btn => {
@@ -581,6 +661,14 @@ labelsAsArray.sort((a, b) => {
 				stroke-width: 2;
 
 				transition: all .2s ease-in-out;
+			}
+		}
+
+		&--dimmed {
+			svg {
+				path {
+					opacity: .2;
+				}
 			}
 		}
 	}
