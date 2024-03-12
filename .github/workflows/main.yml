@@ -12,7 +12,7 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
 
-    - name: Use Node.js 16
+    - name: Use Node.js 20
       uses: actions/setup-node@v2
       with:
         node-version: "20"
@@ -23,10 +23,12 @@ jobs:
         npm run build
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        server: sftp.dc2.gpaas.net
-        port: 22
-        server-dir: vhsots/perrien.fr/htdocs/labs/pitchfork/
-        username: 414871
-        password: ${{ secrets.GANDIPASSWORD }}
+          username: ${{ secrets.GANDIUSERNAME }}
+          server: ${{ secrets.GANDISERVER }}
+          port: 22
+          password: ${{ secrets.GANDIPASSWORD }}
+          local_path: "./dist/*"
+          remote_path: "vhsots/perrien.fr/htdocs/labs/pitchfork/"
+          sftpArgs: '-o ConnectTimeout=5'

@@ -5,7 +5,7 @@ import Layout from "../layouts/Layout.astro";
 import AlbumCard from "../components/AlbumCard.astro";
 import GenreCharts from "../components/GenreCharts.vue";
 
-import type { Album, AlbumInfo, Year, GenresData, Path } from "../types/types";
+import type { Album, AlbumInfo, GenresData, Path } from "../types/types";
 
 import { sanitizeForDataAttribute } from "../utils/utils";
 
@@ -477,7 +477,7 @@ labelsAsArray.sort((a, b) => {
 			});
 		});
 
-		album.addEventListener("mouseleave", (event) => {
+		album.addEventListener("mouseleave", () => {
 			if (currentHighlightTitle === "") {
 				setTimeout(() => {
 					lines.forEach(line => {
@@ -491,7 +491,7 @@ labelsAsArray.sort((a, b) => {
 			}
 		});
 
-		album.addEventListener("click", function(event) {
+		album.addEventListener("click", function() {
 			const title = this.dataset.title;
 			if (currentHighlightTitle === "") {
 				highlightAlbum(title);
