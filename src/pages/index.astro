@@ -230,46 +230,48 @@ labelsAsArray.sort((a, b) => {
 				<a href="#about">What's that‽</a>
 			</p>
 		</header>
-		<div class="chart">
-			<div class="year year--1999">
-				<div class="year__year"><span>1999</span></div>
-				<ol class="list list--1999">
-					{list1999.map((album, index) => (
-						<li>
-							<AlbumCard album={album} index={index} />
-						</li>
-					))}
-				</ol>
-			</div>
-			<div class="lines lines--2003" id="lines-2003">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
-					{ lines1999.map(line => (
-						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
-					))}
-				</svg>
-			</div>
-			<div class="year year--2003">
-				<div class="year__year"><span>2003</span></div>
-				<ol class="list list--2003">
-					{list2003.map((album, index) => (
-						<li><AlbumCard album={album} index={index} /></li>
-					))}
-				</ol>
-			</div>
-			<div class="lines lines--2022" id="lines-2022">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
-					{ lines2003.map(line => (
-						<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
-					))}
-				</svg>
-			</div>
-			<div class="year year--2022">
-				<div class="year__year"><span>2022</span></div>
-				<ol class="list list--2022">
-					{list2022.map((album, index) => (
-						<li><AlbumCard album={album} index={index} reverseInfo={true} /></li>
-					))}
-				</ol>
+		<div class="chartWrapper">
+			<div class="chart">
+				<div class="year year--1999">
+					<div class="year__year"><span>1999</span></div>
+					<ol class="list list--1999">
+						{list1999.map((album, index) => (
+							<li>
+								<AlbumCard album={album} index={index} />
+							</li>
+						))}
+					</ol>
+				</div>
+				<div class="lines lines--2003" id="lines-2003">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
+						{ lines1999.map(line => (
+							<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
+						))}
+					</svg>
+				</div>
+				<div class="year year--2003">
+					<div class="year__year"><span>2003</span></div>
+					<ol class="list list--2003">
+						{list2003.map((album, index) => (
+							<li><AlbumCard album={album} index={index} /></li>
+						))}
+					</ol>
+				</div>
+				<div class="lines lines--2022" id="lines-2022">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 7406">
+						{ lines2003.map(line => (
+							<path d={`M${line.start[0]},${line.start[1]} C${line.start_control[0]},${line.start_control[1]} ${line.end_control[0]},${line.end_control[1]} ${line.end[0]},${line.end[1]}`} fill="transparent" stroke="#737476" data-title={line.sanitized_title} />
+						))}
+					</svg>
+				</div>
+				<div class="year year--2022">
+					<div class="year__year"><span>2022</span></div>
+					<ol class="list list--2022">
+						{list2022.map((album, index) => (
+							<li><AlbumCard album={album} index={index} reverseInfo={true} /></li>
+						))}
+					</ol>
+				</div>
 			</div>
 		</div>
 		<p class="help">
@@ -326,40 +328,45 @@ labelsAsArray.sort((a, b) => {
 				<dl>
 					<div>
 						<dt>Survivors</dt>
-						<div
-							class="behaviour__circle"
-							style={`height: ${behaviour.survivors / 239 * 100}%; width: ${behaviour.survivors / 239 * 100}%`}
-						></div>
+						<div class="behaviour__box">
+							<div
+								class="behaviour__circle"
+								style={`height: ${behaviour.survivors / 239 * 100}%; width: ${behaviour.survivors / 239 * 100}%`}
+							></div>
+						</div>
 						<dd>{behaviour.survivors}</dd>
+						<p>
+							Survivors are albums that appear in all three lists.
+						</p>
 					</div>
 					<div>
 						<dt>Orphans</dt>
-						<div
-							class="behaviour__circle"
-							style={`height: ${behaviour.orphans / 239 * 100}%; width: ${behaviour.orphans / 239 * 100}%`}
-						></div>
+						<div class="behaviour__box">
+							<div
+								class="behaviour__circle"
+								style={`height: ${behaviour.orphans / 239 * 100}%; width: ${behaviour.orphans / 239 * 100}%`}
+							></div>
+						</div>
 						<dd>{behaviour.orphans}</dd>
+						<p>
+							Orphans are albums that are present in only one of the three lists.
+						</p>
 					</div>
 					<div>
 						<dt>Comebacks</dt>
-						<div
-							class="behaviour__circle"
-							style={`height: ${behaviour.comebacks / 239 * 100}%; width: ${behaviour.comebacks / 239 * 100}%`}
-						></div>
+						<div class="behaviour__box">
+							<div
+								class="behaviour__circle"
+								style={`height: ${behaviour.comebacks / 239 * 100}%; width: ${behaviour.comebacks / 239 * 100}%`}
+							></div>
+						</div>
 						<dd>{behaviour.comebacks}</dd>
+						<p>
+							Comebacks are albums that are present in the 1999 and the 2022 lists, but not in the 2003 list.
+						</p>
 					</div>
 				</dl>
-				<div class="behaviour__disclaimer">
-					<p>
-						Survivors are albums that appear in all three lists.
-					</p>
-					<p>
-						Orphans are albums that are present in only one of the three lists.
-					</p>
-					<p>
-						Comebacks are albums that are present in the 1999 and the 2022 lists, but not in the 2003 list.
-					</p>
-				</div>
+
 			</div>
 		</section>
 		<section class="controls">
@@ -430,6 +437,10 @@ labelsAsArray.sort((a, b) => {
 					</div>
 					<div class="made__source">
 						<a href="https://github.com/mperrien/pitchfork-1990s" target="_blank" rel="noopener noreferer">View source on <span class="screen-reader-text">GitHub</span><Icon name="github-logo" /></a>
+					</div>
+					<div class="made__me">
+						Get in touch<br />
+						<a href="mailto:marc.perrien@gmail.com?subject=Pitchfork History">marc.perrien@gmail.com</a>
 					</div>
 				</div>
 			</div>
@@ -534,6 +545,11 @@ labelsAsArray.sort((a, b) => {
 </script>
 
 <style lang="scss">
+main {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
 .page-header {
 	display: flex;
 	flex-direction: column;
@@ -548,9 +564,9 @@ labelsAsArray.sort((a, b) => {
 	}
 
 	h1 {
-		margin-top: 0;
+		margin-top: 2.4rem;
 
-		font-size: 7.2rem;
+		font-size: clamp(3.6rem, 8vw, 7.2rem);
 		text-align: center;
 	}
 
@@ -582,6 +598,13 @@ labelsAsArray.sort((a, b) => {
 	text-align: center;
 }
 
+.chartWrapper {
+	height: 700rem;
+	max-width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
 .chart {
 	position: relative;
 
@@ -592,9 +615,6 @@ labelsAsArray.sort((a, b) => {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 3rem;
-
-
-	// overflow-y: hidden;
 
 	&::after {
 		content: "";
@@ -900,8 +920,12 @@ labelsAsArray.sort((a, b) => {
 
 	dl {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: 1fr;
 		gap: 3rem;
+
+		@media (min-width: 40rem) {
+			grid-template-columns: repeat(3, 1fr);
+		}
 
 		> div {
 			position: relative;
@@ -909,22 +933,20 @@ labelsAsArray.sort((a, b) => {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			justify-content: center;
+			justify-content: flex-start;
 			gap: 1.6rem;
-			aspect-ratio: 1/1;
+		}
 
-			// outline: .1rem solid red;
+		.behaviour__box {
+			display: grid;
+			place-items: center;
+			aspect-ratio: 1/1;
+			width: 100%;
 		}
 
 		.behaviour__circle {
-			// position: absolute;
-			// top: 50%;
-			// left: 50%;
-
 			background-color: var(--pitchfork-red);
 			border-radius: 50%;
-
-			// transform: translate(-50%, -50%);
 		}
 
 		dt {
@@ -937,12 +959,6 @@ labelsAsArray.sort((a, b) => {
 		dd {
 			margin-left: 0;
 		}
-	}
-
-	&__disclaimer {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 3rem;
 
 		p {
 			padding: 0 4.8rem;
@@ -1041,6 +1057,18 @@ labelsAsArray.sort((a, b) => {
 				svg {
 					height: 1.8rem;
 					width: auto;
+				}
+			}
+		}
+
+		&__me {
+			margin-top: 4.8rem;
+
+			a {
+				color: #f3f4f5;
+
+				&:hover {
+					color: var(--pitchfork-red);
 				}
 			}
 		}
