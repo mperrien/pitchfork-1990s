@@ -477,7 +477,7 @@ labelsAsArray.sort((a, b) => {
 			});
 		});
 
-		album.addEventListener("mouseleave", (event) => {
+		album.addEventListener("mouseleave", () => {
 			if (currentHighlightTitle === "") {
 				setTimeout(() => {
 					lines.forEach(line => {
@@ -491,7 +491,7 @@ labelsAsArray.sort((a, b) => {
 			}
 		});
 
-		album.addEventListener("click", function(event) {
+		album.addEventListener("click", function() {
 			const title = this.dataset.title;
 			if (currentHighlightTitle === "") {
 				highlightAlbum(title);
