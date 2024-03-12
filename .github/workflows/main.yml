@@ -1,0 +1,32 @@
+on:
+  pull_request:
+    types: [ closed ]
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    # this job will only run if the PR has been merged
+    if: github.event.pull_request.merged == true
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: "20"
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: sftp.dc2.gpaas.net
+        port: 22
+        server-dir: vhsots/perrien.fr/htdocs/labs/pitchfork/
+        username: 414871
+        password: ${{ secrets.GANDIPASSWORD }}
