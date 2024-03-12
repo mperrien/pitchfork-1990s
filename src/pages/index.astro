@@ -272,6 +272,9 @@ labelsAsArray.sort((a, b) => {
 				</ol>
 			</div>
 		</div>
+		<p class="help">
+			Click an album to "lock" it, allowing you to better observe changes while scrolling.
+		</p>
 		<section class="genres">
 			<div class="container">
 				<header>
@@ -418,6 +421,17 @@ labelsAsArray.sort((a, b) => {
 				</ul>
 				<p>This small data visualization tries to show the changes in those lists, and maybe, surface larger trends.</p>
 				<p><strong>Disclaimer:</strong> this page is not optimized at all. It will probably make your laptop fans spin like crazy. Maybe I'll work on it one day, maybe I won't...</p>
+				<div class="made">
+					Made with
+					<div class="made__icons">
+						<a href="https://astro.build" target="_blank" rel="noopener noreferer"><span class="screen-reader-text">Astro</span><Icon name="astro-icon-light-gradient" /></a>
+						<a href="https://sass-lang.com" target="_blank" rel="noopener noreferer"><span class="screen-reader-text">Sass</span><Icon name="sass-logo" /></a>
+						<a href="https://vuejs.org" target="_blank" rel="noopener noreferer"><span class="screen-reader-text">Vue.js</span><Icon name="vue-logo" /></a>
+					</div>
+					<div class="made__source">
+						<a href="https://github.com/mperrien/pitchfork-1990s" target="_blank" rel="noopener noreferer">View source on <span class="screen-reader-text">GitHub</span><Icon name="github-logo" /></a>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
@@ -469,44 +483,11 @@ labelsAsArray.sort((a, b) => {
 		album.addEventListener("click", function(event) {
 			const title = this.dataset.title;
 			if (currentHighlightTitle === "") {
-				// console.log("highlighting", title);
-				// currentHighlightTitle = title;
-				// currentHighlightedElements = Array.from(
-				// 	document.querySelectorAll(`.album[data-title='${title}']`)
-				// );
-				// for (let al of currentHighlightedElements) {
-				// 	al.classList.add("isHighlighted", "revealRank");
-				// }
-				// for (let line of lines) {
-				// 	if (line.dataset.title === title) {
-				// 		console.log(line);
-				// 		line.setAttribute("style", "opacity: 1;");	
-				// 	} else {
-				// 		line.setAttribute("style", "opacity: 0.2;");
-				// 	}
-				// }
 				highlightAlbum(title);
 			} else {
 				if (currentHighlightTitle !== title) {
-					// console.log("highlighting", title);
-					// currentHighlightTitle = title;
-					// currentHighlightedElements = Array.from(
-					// 	document.querySelectorAll(`.album[data-title='${title}']`)
-					// );
-					// for (let al of currentHighlightedElements) {
-					// 	al.classList.add("isHighlighted", "revealRank");
-					// }
-					// for (let line of lines) {
-					// 	if (line.dataset.title === title) {
-					// 		console.log(line);
-					// 		line.setAttribute("style", "opacity: 1;");	
-					// 	} else {
-					// 		line.setAttribute("style", "opacity: 0.2;");
-					// 	}
-					// }
 					highlightAlbum(title);
 				}
-				console.log("removing highlight");
 				currentHighlightTitle = "";
 				for (let al of currentHighlightedElements) {
 					al.classList.remove("isHighlighted", "revealRank");
@@ -531,7 +512,6 @@ labelsAsArray.sort((a, b) => {
 		}
 		for (let line of lines) {
 			if (line.dataset.title === title) {
-				// console.log(line);
 				line.setAttribute("style", "opacity: 1;");	
 			} else {
 				line.setAttribute("style", "opacity: 0.2;");
@@ -544,7 +524,6 @@ labelsAsArray.sort((a, b) => {
 		btn.addEventListener("click", (event) => {
 			const control = event.target.id;
 			highlight(control);
-			// if (event.target.)
 		})
 	})
 
@@ -586,6 +565,23 @@ labelsAsArray.sort((a, b) => {
 	}
 }
 
+.help {
+	position: relative;
+	z-index: 4;
+
+	margin: 0;
+	padding-top: 2rem;
+	padding-right: 1.6rem;
+	padding-bottom: 3.6rem;
+	padding-left: 1.6rem;
+
+	background-color: white;
+
+	color: var(--text-color-dim);
+	font-size: 1.4rem;
+	text-align: center;
+}
+
 .chart {
 	position: relative;
 
@@ -595,7 +591,7 @@ labelsAsArray.sort((a, b) => {
 	width: 160rem;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 10rem;
+	padding-top: 3rem;
 
 
 	// overflow-y: hidden;
@@ -1009,6 +1005,44 @@ labelsAsArray.sort((a, b) => {
 			color: var(--pitchfork-red);
 			font-weight: 700;
 			text-transform: uppercase;
+		}
+	}
+
+	.made {
+		margin-top: 8rem;
+
+		color: #676869;
+		text-align: center;
+
+		&__icons {
+			display: flex;
+			justify-content: center;
+			gap: 3.2rem;
+			margin-top: 2rem;
+
+			svg {
+				height: 4.8rem;
+				width: auto;
+			}
+		}
+
+		&__source {
+			margin-top: 4.8rem;
+
+			a {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: .6rem;
+
+				color: #676869;
+				font-size: 1.4rem;
+
+				svg {
+					height: 1.8rem;
+					width: auto;
+				}
+			}
 		}
 	}
 }
