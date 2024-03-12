@@ -181,7 +181,7 @@ onMounted(() => {
   &__controls {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 1.6rem;
   }
 
   &__button {
